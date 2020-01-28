@@ -20,7 +20,21 @@
     </url>
     
     <url>
+        <loc>https://audience.support.brightcove.com/general/creating-audience-lead-form.html</loc>
+        <lastmod>2020-01-28</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
         <loc>https://audience.support.brightcove.com/getting-started/creating-multiple-outputs.html</loc>
+        <lastmod>2020-01-28</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://audience.support.brightcove.com/admin/exporting-audience-data-audience-module.html</loc>
         <lastmod>2020-01-28</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.5</priority>
@@ -48,6 +62,13 @@
     </url>
     
     <url>
+        <loc>https://audience.support.brightcove.com/get-started/getting-started-audience-module.html</loc>
+        <lastmod>2020-01-28</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
         <loc>https://audience.support.brightcove.com/icons.html</loc>
         <lastmod>2020-01-28</lastmod>
         <changefreq>daily</changefreq>
@@ -55,14 +76,14 @@
     </url>
     
     <url>
-        <loc>https://audience.support.brightcove.com/</loc>
+        <loc>https://audience.support.brightcove.com/getting-started/</loc>
         <lastmod>2020-01-28</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.5</priority>
     </url>
     
     <url>
-        <loc>https://audience.support.brightcove.com/getting-started/</loc>
+        <loc>https://audience.support.brightcove.com/</loc>
         <lastmod>2020-01-28</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.5</priority>
@@ -119,6 +140,13 @@
     
     <url>
         <loc>https://audience.support.brightcove.com/sitemap.xml</loc>
+        <lastmod>2020-01-28</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://audience.support.brightcove.com/general/viewing-player-events-audience-module.html</loc>
         <lastmod>2020-01-28</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.5</priority>
