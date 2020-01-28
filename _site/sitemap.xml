@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/assets/css/site/sitemap.css"?>
+<?xml-stylesheet type="text/xsl" href="/assets/css/site/sitemap.xsl"?>
+
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+    
+    <url>
+        <loc>https://audience.support.brightcove.com/404.html</loc>
+        <lastmod>2020-01-28</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://audience.support.brightcove.com/general/audience-fields-and-data-definitions.html</loc>
+        <lastmod>2020-01-28</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://audience.support.brightcove.com/getting-started/creating-multiple-outputs.html</loc>
+        <lastmod>2020-01-28</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://audience.support.brightcove.com/admin/exporting-gallery-lead-data.html</loc>
+        <lastmod>2020-01-28</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://audience.support.brightcove.com/assets/js/feedback-zencoder.js</loc>
+        <lastmod>2020-01-28</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://audience.support.brightcove.com/getting-started/getting-api-key.html</loc>
+        <lastmod>2020-01-28</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://audience.support.brightcove.com/icons.html</loc>
+        <lastmod>2020-01-28</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://audience.support.brightcove.com/</loc>
+        <lastmod>2020-01-28</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://audience.support.brightcove.com/getting-started/</loc>
+        <lastmod>2020-01-28</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://audience.support.brightcove.com/general/integrating-audience-single-sign.html</loc>
+        <lastmod>2020-01-28</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://audience.support.brightcove.com/assets/css/local.css</loc>
+        <lastmod>2020-01-28</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://audience.support.brightcove.com/getting-started/output-settings.html</loc>
+        <lastmod>2020-01-28</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://audience.support.brightcove.com/getting-started/overview-zencoder.html</loc>
+        <lastmod>2020-01-28</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://audience.support.brightcove.com/general/publishing-video-email-using-audience-module.html</loc>
+        <lastmod>2020-01-28</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://audience.support.brightcove.com/getting-started/quick-start-zencoder.html</loc>
+        <lastmod>2020-01-28</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://audience.support.brightcove.com/assets/js/search.js</loc>
+        <lastmod>2020-01-28</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://audience.support.brightcove.com/sitemap.xml</loc>
+        <lastmod>2020-01-28</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://audience.support.brightcove.com/feed.xml</loc>
+        <lastmod>2020-01-28</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+
+    
+
+</urlset>
