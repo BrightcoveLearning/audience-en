@@ -20,6 +20,13 @@
     </url>
     
     <url>
+        <loc>https://audience.support.brightcove.com/get-started/audience-training-videos.html</loc>
+        <lastmod>2020-01-28</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
         <loc>https://audience.support.brightcove.com/general/creating-audience-lead-form.html</loc>
         <lastmod>2020-01-28</lastmod>
         <changefreq>daily</changefreq>
@@ -27,14 +34,21 @@
     </url>
     
     <url>
-        <loc>https://audience.support.brightcove.com/assets/images/integrations/eloqua/creating-custom-lead-forms-oracle-eloqua.html</loc>
+        <loc>https://audience.support.brightcove.com/integrations/custom/creating-custom-integrations-audience-module.html</loc>
         <lastmod>2020-01-28</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.5</priority>
     </url>
     
     <url>
-        <loc>https://audience.support.brightcove.com/getting-started/creating-multiple-outputs.html</loc>
+        <loc>https://audience.support.brightcove.com/integrations/eloqua/creating-custom-lead-forms-oracle-eloqua.html</loc>
+        <lastmod>2020-01-28</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://audience.support.brightcove.com/integrations/salesforce/creating-custom-lead-forms-salesforce.html</loc>
         <lastmod>2020-01-28</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.5</priority>
@@ -62,13 +76,6 @@
     </url>
     
     <url>
-        <loc>https://audience.support.brightcove.com/getting-started/getting-api-key.html</loc>
-        <lastmod>2020-01-28</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.5</priority>
-    </url>
-    
-    <url>
         <loc>https://audience.support.brightcove.com/get-started/getting-started-audience-module.html</loc>
         <lastmod>2020-01-28</lastmod>
         <changefreq>daily</changefreq>
@@ -90,14 +97,21 @@
     </url>
     
     <url>
-        <loc>https://audience.support.brightcove.com/getting-started/</loc>
+        <loc>https://audience.support.brightcove.com/general/integrating-audience-single-sign.html</loc>
         <lastmod>2020-01-28</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.5</priority>
     </url>
     
     <url>
-        <loc>https://audience.support.brightcove.com/general/integrating-audience-single-sign.html</loc>
+        <loc>https://audience.support.brightcove.com/integrations/eloqua/integrating-video-cloud-oracle-eloqua.html</loc>
+        <lastmod>2020-01-28</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://audience.support.brightcove.com/integrations/salesforce/integrating-video-cloud-salesforce.html</loc>
         <lastmod>2020-01-28</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.5</priority>
@@ -118,14 +132,7 @@
     </url>
     
     <url>
-        <loc>https://audience.support.brightcove.com/getting-started/output-settings.html</loc>
-        <lastmod>2020-01-28</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.5</priority>
-    </url>
-    
-    <url>
-        <loc>https://audience.support.brightcove.com/getting-started/overview-zencoder.html</loc>
+        <loc>https://audience.support.brightcove.com/develop/overview-audience-api.html</loc>
         <lastmod>2020-01-28</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.5</priority>
@@ -133,13 +140,6 @@
     
     <url>
         <loc>https://audience.support.brightcove.com/general/publishing-video-email-using-audience-module.html</loc>
-        <lastmod>2020-01-28</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.5</priority>
-    </url>
-    
-    <url>
-        <loc>https://audience.support.brightcove.com/getting-started/quick-start-zencoder.html</loc>
         <lastmod>2020-01-28</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.5</priority>
@@ -160,7 +160,21 @@
     </url>
     
     <url>
+        <loc>https://audience.support.brightcove.com/admin/troubleshooting-audience-issues.html</loc>
+        <lastmod>2020-01-28</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
         <loc>https://audience.support.brightcove.com/general/viewing-player-events-audience-module.html</loc>
+        <lastmod>2020-01-28</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://audience.support.brightcove.com/general/viewing-video-activity.html</loc>
         <lastmod>2020-01-28</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.5</priority>
