@@ -62,6 +62,13 @@
     </url>
     
     <url>
+        <loc>https://audience.support.brightcove.com/integrations/eloqua/embedding-video-cloud-video-eloqua-landing-page.html</loc>
+        <lastmod>2020-01-29</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
         <loc>https://audience.support.brightcove.com/admin/exporting-audience-data-audience-module.html</loc>
         <lastmod>2020-01-29</lastmod>
         <changefreq>daily</changefreq>
@@ -84,6 +91,13 @@
     
     <url>
         <loc>https://audience.support.brightcove.com/get-started/getting-started-audience-module.html</loc>
+        <lastmod>2020-01-29</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://audience.support.brightcove.com/general/how-audience-module-identifies-viewers.html</loc>
         <lastmod>2020-01-29</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.5</priority>
