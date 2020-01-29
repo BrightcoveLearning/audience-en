@@ -83,6 +83,13 @@
     </url>
     
     <url>
+        <loc>https://audience.support.brightcove.com/integrations/eloqua/eloqua-integration-testing-guide.html</loc>
+        <lastmod>2020-01-29</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
         <loc>https://audience.support.brightcove.com/integrations/eloqua/embedding-video-cloud-video-eloqua-landing-page.html</loc>
         <lastmod>2020-01-29</lastmod>
         <changefreq>daily</changefreq>
@@ -119,6 +126,13 @@
     
     <url>
         <loc>https://audience.support.brightcove.com/general/how-audience-module-identifies-viewers.html</loc>
+        <lastmod>2020-01-29</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://audience.support.brightcove.com/integrations/hubspot/hubspot-rest-api-integration-testing-guide.html</loc>
         <lastmod>2020-01-29</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.5</priority>
@@ -195,6 +209,13 @@
     </url>
     
     <url>
+        <loc>https://audience.support.brightcove.com/admin/managing-viewer-data.html</loc>
+        <lastmod>2020-01-29</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
         <loc>https://audience.support.brightcove.com/integrations/marketo/marketo-rest-integration-testing-guide.html</loc>
         <lastmod>2020-01-29</lastmod>
         <changefreq>daily</changefreq>
@@ -237,6 +258,20 @@
     </url>
     
     <url>
+        <loc>https://audience.support.brightcove.com/general/using-audience-module-track-viewers.html</loc>
+        <lastmod>2020-01-29</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://audience.support.brightcove.com/general/using-custom-metrics-and-events.html</loc>
+        <lastmod>2020-01-29</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
         <loc>https://audience.support.brightcove.com/general/viewing-player-events-audience-module.html</loc>
         <lastmod>2020-01-29</lastmod>
         <changefreq>daily</changefreq>
@@ -252,6 +287,13 @@
     
     <url>
         <loc>https://audience.support.brightcove.com/general/viewing-viewer-profile-information.html</loc>
+        <lastmod>2020-01-29</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://audience.support.brightcove.com/general/working-utm-fields-audience-module.html</loc>
         <lastmod>2020-01-29</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.5</priority>
