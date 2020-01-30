@@ -3,30 +3,118 @@ title: Audience Documentation
 parent: null
 ---
 
-<article class="landing-page-wrapper">
-  <section class="landing-page-header" id="landing_page_header">
-    <h1>{{ site.title }}</h1>
-
-    <p>{{ site.description }}</p>
-  </section>
+<article class="bcls-article">
+  <h1>Brightcove Audience&trade; Documentation</h1>
   <section class="card-wrapper">
-    {% for section in site.data.navigation offset:1 %}
-    <section class="bcls-card-small" onclick="window.location.href='{{ section.url }}'">
-
-      <div class="card-icon">
-        {{ section.icon }}
-      </div>
-
+    <section onclick="window.location.pathname = '/get-started/index.html';" class="bcls-card">
+      <div class="card-icon"> <i class="far fa-location-arrow"></i> </div>
       <div class="card-content">
-        <h2>{{ section.name }}</h2>
+        <h2><a href="/get-started/index.html">Getting Started</a></h2>
+        <p>Just getting started with Brightcove Audience?</p>
         <ul>
-          {% for doc in section.docs limit:4 %}
-          <li><a href="{{ doc.url }}">{{ doc.name }}</a></li>
-          {% endfor %}
+          <li><a href="/get-started/getting-started-brightcove-gallery.html">Getting Started with the Audience Module</a></li>
+          <li><a href="/get-started/audience-training-videos.html">Audience Training Videos </a></li>
         </ul>
-        <p style="font-size:small;"><a href="{{ section.url }}">See more...</a></p>
       </div>
     </section>
-    {% endfor %}
+    <section onclick="window.location.pathname = '/integrations/index.html';" class="bcls-card">
+      <div class="card-icon"> <i class="fas fa-cogs"></i> </div>
+      <div class="card-content">
+        <h2 id="experiences"><a href="/integrations/index.html"> Integrations</a></h2>
+        <p>Learn how to integrate Brightcove Audience with Marketing Automation Platforms.</p>
+<table class="bcls-table">
+      <thead class="bcls-table__head">
+        <tr>
+          <th width="300">MAP Integrations</th>
+          <th width="300">Non-MAP Integrations</th>
+        </tr>
+      </thead>
+      <tbody class="bcls-table__body">
+        <tr>
+          <td valign="top"><ul>
+              <li><a href="/integrations/eloqua/integrating-video-cloud-oracle-eloqua.html">Oracle Eloqua</a></li>
+              <li><a href="/integrations/marketo/integrating-video-cloud-marketo-using-rest-apis.html">Marketo (REST APIs)</a></li>
+              <li><a href="/integrations/marketo/integrating-video-cloud-marketo-using-munchkin.html">Marketo (Munchkin)</a></li>
+              <li><a href="/integrations/salesforce/integrating-video-cloud-salesforce.html">Salesforce</a></li>
+              <li><a href="/integrations/hubspot/integrating-video-cloud-hubspot-using-rest-apis.html">HubSpot (REST APIs)</a></li>
+              <li><a href="/integrations/hubspot/integrating-video-cloud-hubspot-using-client-side-apis.html">HubSpot (Client-Side APIs)</a></li>
+            </ul></td>
+          <td valign="top"><ul>
+              <li><a href="/integrations/non-map/creating-custom-integrations-audience-module.html">Custom integrations</a></li>
+              <li><a href="/integrations/non-map/integrating-audience-single-sign.html">Single sign-on</a></li>
+              <li><a href="/integrations/non-map/using-audience-module-track-viewers.html">Audience Tracking</a></li>
+            </ul></td>
+        </tr>
+      </tbody>
+    </table>
+      </div>
+    </section>
+      <section onclick="window.location.pathname = '/general/index.html';" class="bcls-card">
+      <div class="card-icon"> <i class="far fa-info-circle"></i> </div>
+      <div class="card-content">
+        <h2><a href="/general/index.html">General Information</a></h2>
+        <p>General information about Brightcove Audience.</p>
+        <ul>
+          <li><a href="/general/creating-audience-enabled-player.html">Creating an Audience-enabled Player</a></li>
+          <li><a href="/general/how-audience-module-identifies-viewers.html">How the Audience Module Identifies Viewers</a></li>
+          <li><a href="/general/viewing-video-activity.html">Viewing Video Activity</a></li>
+        </ul>
+        <a href="/general/index.html">View All...</a></div>
+    </section>
+      <section onclick="window.location.pathname= '/admin/index.html';" class="bcls-card">
+      <div class="card-icon"> <i class="fal fa-tools"></i> </div>
+      <div class="card-content">
+        <h2 id="admin"><a href="/admin/index.html">Administering Audience</a></h2>
+        <p>Learn how to administer the Audience account.</p>
+        <ul>
+          <li><a href="/admin/exporting-audience-data-audience-module.html">Exporting  Data from  Audience</a></li>
+          <li><a href="/admin/exporting-gallery-lead-data.html">Exporting Gallery Lead Data</a></li>
+          <li><a href="/admin/managing-viewer-data.html">Managing Viewer Data</a></li>
+          <li><a href="/admin/troubleshooting-audience-issues.html">Troubleshooting Audience Issues</a></li>
+        </ul>
+      </div>
+    </section>
+    <section onclick="window.location.pathname = '/get-started/index.html';" class="bcls-card">
+      <div class="card-icon"> <i class="fas fa-film"></i> </div>
+      <div class="card-content">
+        <h2 id="training"><a href="/get-started/index.html">Training</a></h2>
+        <p>On-Demand Training and Gallery product training videos.</p>
+        <ul>
+          <li><a href="/get-started/gallery-training-videos.html">Audience Training Videos</a></li>
+        </ul>
+      </div>
+    </section>
+    <section onclick="window.location.pathname = '/develop/index.html';" class="bcls-card">
+      <div class="card-icon"> <i class="far fa-file-code"></i> </div>
+      <div class="card-content">
+        <h2><a href="/develop/index.html">Developers</a></h2>
+        <p>Learn how to retrieve viewing event and lead data using the Audience API.</p>
+        <ul>
+          <li><a href="/develop/overview-audience-api.html">Overview: Audience API</a></li>
+        </ul>
+      </div>
+    </section>
+    <section onclick="window.location.pathname = '/release-notes/index.html';" class="bcls-card">
+      <div class="card-icon"> <i class="far fa-bell"></i> </div>
+      <div class="card-content">
+        <h2><a href="/release-notes/index.html">Release Notes</a></h2>
+        <p>Learn about new product features and updates.</p>
+        <ul>
+          <li><a href="/release-notes/gallery-release-notes.html">Gallery Release Notes</a></li>
+          <li><a href="/release-notes/gallery-template-release-notes.html">Gallery Template Release Notes</a></li>
+        </ul>
+      </div>
+    </section>
+    <section onclick="window.location.pathname = '/support/index.html';" class="bcls-card">
+      <div class="card-icon"> <i class="far fa-question-circle"></i> </div>
+      <div class="card-content">
+        <h2><a href="/support/index.html">Support</a></h2>
+        <p>Have a question or need help?</p>
+        <ul>
+          <li><a href="/support/viewing-brightcove-system-status-page.html">View Brightcove System Status</a></li>
+          <li><a href="/support/opening-case-with-brightcove-support.html">Open a Support Case</a></li>
+        </ul>
+      </div>
+    </section>
   </section>
 </article>
