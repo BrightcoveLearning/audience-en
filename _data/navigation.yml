@@ -38,12 +38,12 @@
     - name: Working with UTM Fields
       url: /general/working-utm-fields-audience-module.html
 - section: 
-    name: Integrations
-    url: /integrations/
-    docs:
-        - name: Eloqua
+  name: Integrations
+  url: /integrations/
+  docs:
+     - name: Eloqua
         url: /experiences/eloqua/
-        docs:
+       docs:
         - name: Creating Custom Lead Forms
           url: /integrations/eloqua/creating-custom-lead-forms-oracle-eloqua.html
         - name: Eloqua Integration Testing Guide
@@ -52,10 +52,9 @@
           url: /integrations/eloqua/embedding-video-cloud-video-eloqua-landing-page.html
         - name: Integrating with Oracle Eloqua
           url: /integrations/eloqua/integrating-video-cloud-oracle-eloqua.html
-        docs:
-        - name: HubSpot
-        url: /experiences/hubspot/
-        docs:
+    - name: HubSpot
+       url: /experiences/hubspot/
+      docs:
         - name: Creating Custom Lead Forms
           url: /integrations/hubspot/creating-custom-lead-forms-hubspot.html
         - name: HubSpot REST API Testing Guide
@@ -64,10 +63,9 @@
           url: /integrations/hubspot/integrating-video-cloud-hubspot-using-client-side-apis.html
         - name: 'Integrating with HubSpot (REST APIs)'
           url: /integrations/hubspot/integrating-video-cloud-hubspot-using-rest-apis.html 
-        docs:
-        - name: Marketo
-        url: /experiences/marketo/
-        docs:
+    - name: Marketo
+       url: /experiences/marketo/
+      docs:
         - name: Creating Custom Lead Forms
           url: /integrations/marketo/creating-custom-lead-forms-marketo.html
         - name: 'Integrating with Marketo (Munchkin)'
@@ -76,20 +74,18 @@
           url: /integrations/marketo/integrating-video-cloud-marketo-using-rest-apis.html
         - name: Marketo REST Integration Testing Guide
           url: /integrations/marketo/marketo-rest-integration-testing-guide.html
-        docs:
-        - name: Non-MAP
-        url: /integrations/non-map/
-        docs:
+    - name: Non-MAP
+       url: /integrations/non-map/
+      docs:
         - name: Creating Custom Integrations
           url: /integrations/non-map/creating-custom-integrations-audience-module.html
         - name: Integrating with Single Sign-On
           url: /integrations/non-map/integrating-audience-single-sign.html
         - name: Using Audience to Track Viewers
           url: /integrations/non-map/using-audience-module-track-viewers.html
-        docs:
-        - name: Salesforce
-        url: /integrations/salesforce/
-        docs:
+    - name: Salesforce
+       url: /integrations/salesforce/
+      docs:
         - name: Creating Custom Lead Forms
           url: /integrations/salesforce/creating-custom-lead-forms-salesforce.html
         - name: Integrating with Salesforce
