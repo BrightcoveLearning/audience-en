@@ -111,7 +111,7 @@
     </url>
     
     <url>
-        <loc>https://audience.support.brightcove.com/assets/js/feedback-zencoder.js</loc>
+        <loc>https://audience.support.brightcove.com/assets/js/feedback-audience.js</loc>
         <lastmod>2020-01-31</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.5</priority>
