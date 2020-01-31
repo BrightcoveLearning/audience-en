@@ -41,9 +41,9 @@
   name: Integrations
   url: /integrations/
   docs:
-     - name: Eloqua
-        url: /experiences/eloqua/
-       docs:
+    - name: Eloqua
+      url: /experiences/eloqua/
+      docs:
         - name: Creating Custom Lead Forms
           url: /integrations/eloqua/creating-custom-lead-forms-oracle-eloqua.html
         - name: Eloqua Integration Testing Guide
