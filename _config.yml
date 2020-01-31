@@ -25,6 +25,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 # baseurl: "" # the subpath of your site, e.g. /blog
 site_url: "https://audience.support.brightcove.com"
 search_id: "017969773216783359937:kumezllft4k"
+feedbackify_id: "15071"
 
 # Build settings
 # theme: minima

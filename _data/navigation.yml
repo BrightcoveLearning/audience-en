@@ -1,7 +1,7 @@
-- section: 
+- section:
   name: Home
   url: /
-- section: 
+- section:
   name: Getting Started
   url: /get-started/
   icon: '<i class="far fa-location-arrow"></i>'
@@ -10,7 +10,7 @@
       url: /get-started/getting-started-audience-module.html
     - name: Audience Training Videos
       url: /get-started/audience-training-videos.html
-- section: 
+- section:
   name: General Information
   icon: '<i class="far fa-info-circle"></i>'
   url: /general/
@@ -19,7 +19,7 @@
       url: /general/audience-fields-and-data-definitions.html
     - name: Configuring Audience Settings
       url: /general/configuring-audience-settings.html
-    - name: Creating an Audience-enabled Player 
+    - name: Creating an Audience-enabled Player
       url: /general/creating-audience-enabled-player.html
     - name: Creating an Audience Lead Form
       url: /general/creating-audience-lead-form.html
@@ -31,13 +31,13 @@
       url: /general/using-custom-metrics-and-events.html
     - name: Viewing Player Events
       url: /general/viewing-player-events-audience-module.html
-    - name: Viewing Video Activity 
+    - name: Viewing Video Activity
       url: /general/viewing-video-activity.html
-    - name: Viewing Viewer Profile Information 
+    - name: Viewing Viewer Profile Information
       url: /general/viewing-viewer-profile-information.html
     - name: Working with UTM Fields
       url: /general/working-utm-fields-audience-module.html
-- section: 
+- section:
   name: Integrations
   url: /integrations/
   docs:
@@ -62,7 +62,7 @@
         - name: 'Integrating with HubSpot (Client-Side APIs)'
           url: /integrations/hubspot/integrating-video-cloud-hubspot-using-client-side-apis.html
         - name: 'Integrating with HubSpot (REST APIs)'
-          url: /integrations/hubspot/integrating-video-cloud-hubspot-using-rest-apis.html 
+          url: /integrations/hubspot/integrating-video-cloud-hubspot-using-rest-apis.html
     - name: Marketo
       url: /integrations/marketo/
       docs:
@@ -90,7 +90,7 @@
           url: /integrations/salesforce/creating-custom-lead-forms-salesforce.html
         - name: Integrating with Salesforce
           url: /integrations/salesforce/integrating-video-cloud-salesforce.html
-- section: 
+- section:
   name: Administering Audience
   url: /admin/
   docs:
@@ -102,13 +102,15 @@
       url: /admin/managing-viewer-data.html
     - name: Troubleshooting Audience Issues
       url: /admin/troubleshooting-audience-issues.html
-- section: 
+- section:
   name: Develop
   url: /develop/
   docs:
     - name: 'Overview: Audience API'
       url: /develop/overview-audience-api.html
-- section: 
+    - name: 'Audience API Reference'
+      url: /develop/reference.html
+- section:
   name: Support
   url: /support/
   docs:
