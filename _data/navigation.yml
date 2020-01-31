@@ -53,8 +53,8 @@
         - name: Integrating with Oracle Eloqua
           url: /integrations/eloqua/integrating-video-cloud-oracle-eloqua.html
     - name: HubSpot
-       url: /experiences/hubspot/
-      docs:
+        url: /experiences/hubspot/
+        docs:
         - name: Creating Custom Lead Forms
           url: /integrations/hubspot/creating-custom-lead-forms-hubspot.html
         - name: HubSpot REST API Testing Guide
@@ -64,8 +64,8 @@
         - name: 'Integrating with HubSpot (REST APIs)'
           url: /integrations/hubspot/integrating-video-cloud-hubspot-using-rest-apis.html 
     - name: Marketo
-       url: /experiences/marketo/
-      docs:
+        url: /experiences/marketo/
+        docs:
         - name: Creating Custom Lead Forms
           url: /integrations/marketo/creating-custom-lead-forms-marketo.html
         - name: 'Integrating with Marketo (Munchkin)'
@@ -75,8 +75,8 @@
         - name: Marketo REST Integration Testing Guide
           url: /integrations/marketo/marketo-rest-integration-testing-guide.html
     - name: Non-MAP
-       url: /integrations/non-map/
-      docs:
+        url: /integrations/non-map/
+        docs:
         - name: Creating Custom Integrations
           url: /integrations/non-map/creating-custom-integrations-audience-module.html
         - name: Integrating with Single Sign-On
@@ -84,8 +84,8 @@
         - name: Using Audience to Track Viewers
           url: /integrations/non-map/using-audience-module-track-viewers.html
     - name: Salesforce
-       url: /integrations/salesforce/
-      docs:
+        url: /integrations/salesforce/
+        docs:
         - name: Creating Custom Lead Forms
           url: /integrations/salesforce/creating-custom-lead-forms-salesforce.html
         - name: Integrating with Salesforce
