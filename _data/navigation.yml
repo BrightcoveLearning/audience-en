@@ -103,7 +103,7 @@
     - name: Troubleshooting Audience Issues
       url: /admin/troubleshooting-audience-issues.html
 - section:
-  name: Develop
+  name: Developers
   url: /develop/
   docs:
     - name: 'Overview: Audience API'
