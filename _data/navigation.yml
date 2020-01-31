@@ -3,13 +3,13 @@
   url: /
 - section: 
   name: Getting Started
-  url: /getting-started/
+  url: /get-started/
   icon: '<i class="far fa-location-arrow"></i>'
   docs:
-    - name: Getting Started with the Audience Module
-      url: /getting-started/getting-started-audience-module.html
+    - name: Getting Started with Audience
+      url: /get-started/getting-started-audience-module.html
     - name: Audience Training Videos
-      url: /getting-started/audience-training-videos.html
+      url: /get-started/audience-training-videos.html
 - section: 
   name: General Information
   icon: '<i class="far fa-info-circle"></i>'
@@ -42,7 +42,7 @@
   url: /integrations/
   docs:
     - name: Eloqua
-      url: /experiences/eloqua/
+      url: /integrations/eloqua/
       docs:
         - name: Creating Custom Lead Forms
           url: /integrations/eloqua/creating-custom-lead-forms-oracle-eloqua.html
@@ -53,7 +53,7 @@
         - name: Integrating with Oracle Eloqua
           url: /integrations/eloqua/integrating-video-cloud-oracle-eloqua.html
     - name: HubSpot
-      url: /experiences/hubspot/
+      url: /integrations/hubspot/
       docs:
         - name: Creating Custom Lead Forms
           url: /integrations/hubspot/creating-custom-lead-forms-hubspot.html
@@ -64,7 +64,7 @@
         - name: 'Integrating with HubSpot (REST APIs)'
           url: /integrations/hubspot/integrating-video-cloud-hubspot-using-rest-apis.html 
     - name: Marketo
-      url: /experiences/marketo/
+      url: /integrations/marketo/
       docs:
         - name: Creating Custom Lead Forms
           url: /integrations/marketo/creating-custom-lead-forms-marketo.html
@@ -75,7 +75,7 @@
         - name: Marketo REST Integration Testing Guide
           url: /integrations/marketo/marketo-rest-integration-testing-guide.html
     - name: Non-MAP
-      url: /experiences/non-map/
+      url: /integrations/non-map/
       docs:
         - name: Creating Custom Integrations
           url: /integrations/non-map/creating-custom-integrations-audience-module.html
@@ -84,7 +84,7 @@
         - name: Using Audience to Track Viewers
           url: /integrations/non-map/using-audience-module-track-viewers.html
     - name: Salesforce
-      url: /experiences/salesforce/
+      url: /integrations/salesforce/
       docs:
         - name: Creating Custom Lead Forms
           url: /integrations/salesforce/creating-custom-lead-forms-salesforce.html
