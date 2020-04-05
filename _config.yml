@@ -38,6 +38,9 @@ product_color: rgb(4, 155, 179)
 product_icon: "logo-bc-audience.svg"
 search_id: "017969773216783359937:kumezllft4k"
 feedbackify_id: "15071"
+talla_appID: "00c26be3-4421-41e6-bb00-1dee68740f67"
+talla_token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE1ODI4MDQzNDF9.RYf2x65FXvdDURzM h00i76KfUrYlsDLsw6mVuEv6zmE'
+talla_knowledgegroup: 'bc08cfd1-93d7-4fa7-8c50-d2945619e7b8'
 defaults:
   -
     scope:
