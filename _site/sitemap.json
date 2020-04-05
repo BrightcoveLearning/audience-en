@@ -95,37 +95,7 @@
   },
 
   {
-      "newURL": "https://audience.support.brightcove.com/integrations/non-map/",
-      "oldURL": "/index"
-  },
-
-  {
-      "newURL": "https://audience.support.brightcove.com/develop/",
-      "oldURL": "/index"
-  },
-
-  {
-      "newURL": "https://audience.support.brightcove.com/general/",
-      "oldURL": "/index"
-  },
-
-  {
-      "newURL": "https://audience.support.brightcove.com/admin/",
-      "oldURL": "/index"
-  },
-
-  {
       "newURL": "https://audience.support.brightcove.com/integrations/hubspot/",
-      "oldURL": "/index"
-  },
-
-  {
-      "newURL": "https://audience.support.brightcove.com/integrations/marketo/",
-      "oldURL": "/index"
-  },
-
-  {
-      "newURL": "https://audience.support.brightcove.com/integrations/salesforce/",
       "oldURL": "/index"
   },
 
@@ -140,7 +110,7 @@
   },
 
   {
-      "newURL": "https://audience.support.brightcove.com/support/",
+      "newURL": "https://audience.support.brightcove.com/admin/",
       "oldURL": "/index"
   },
 
@@ -150,7 +120,37 @@
   },
 
   {
+      "newURL": "https://audience.support.brightcove.com/integrations/non-map/",
+      "oldURL": "/index"
+  },
+
+  {
+      "newURL": "https://audience.support.brightcove.com/integrations/marketo/",
+      "oldURL": "/index"
+  },
+
+  {
       "newURL": "https://audience.support.brightcove.com/",
+      "oldURL": "/index"
+  },
+
+  {
+      "newURL": "https://audience.support.brightcove.com/general/",
+      "oldURL": "/index"
+  },
+
+  {
+      "newURL": "https://audience.support.brightcove.com/integrations/salesforce/",
+      "oldURL": "/index"
+  },
+
+  {
+      "newURL": "https://audience.support.brightcove.com/develop/",
+      "oldURL": "/index"
+  },
+
+  {
+      "newURL": "https://audience.support.brightcove.com/support/",
       "oldURL": "/index"
   },
 
