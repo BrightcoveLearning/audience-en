@@ -95,12 +95,27 @@
   },
 
   {
-      "newURL": "https://audience.support.brightcove.com/integrations/hubspot/",
+      "newURL": "https://audience.support.brightcove.com/integrations/marketo/",
       "oldURL": "/index"
   },
 
   {
-      "newURL": "https://audience.support.brightcove.com/integrations/eloqua/",
+      "newURL": "https://audience.support.brightcove.com/integrations/salesforce/",
+      "oldURL": "/index"
+  },
+
+  {
+      "newURL": "https://audience.support.brightcove.com/get-started/",
+      "oldURL": "/index"
+  },
+
+  {
+      "newURL": "https://audience.support.brightcove.com/develop/",
+      "oldURL": "/index"
+  },
+
+  {
+      "newURL": "https://audience.support.brightcove.com/support/",
       "oldURL": "/index"
   },
 
@@ -115,7 +130,7 @@
   },
 
   {
-      "newURL": "https://audience.support.brightcove.com/get-started/",
+      "newURL": "https://audience.support.brightcove.com/",
       "oldURL": "/index"
   },
 
@@ -125,32 +140,17 @@
   },
 
   {
-      "newURL": "https://audience.support.brightcove.com/integrations/marketo/",
-      "oldURL": "/index"
-  },
-
-  {
-      "newURL": "https://audience.support.brightcove.com/",
-      "oldURL": "/index"
-  },
-
-  {
       "newURL": "https://audience.support.brightcove.com/general/",
       "oldURL": "/index"
   },
 
   {
-      "newURL": "https://audience.support.brightcove.com/integrations/salesforce/",
+      "newURL": "https://audience.support.brightcove.com/integrations/hubspot/",
       "oldURL": "/index"
   },
 
   {
-      "newURL": "https://audience.support.brightcove.com/develop/",
-      "oldURL": "/index"
-  },
-
-  {
-      "newURL": "https://audience.support.brightcove.com/support/",
+      "newURL": "https://audience.support.brightcove.com/integrations/eloqua/",
       "oldURL": "/index"
   },
 
@@ -217,6 +217,16 @@
   {
       "newURL": "https://audience.support.brightcove.com/develop/reference.html",
       "oldURL": "/reference"
+  },
+
+  {
+      "newURL": "https://audience.support.brightcove.com/search-test.html",
+      "oldURL": "/search-test"
+  },
+
+  {
+      "newURL": "https://audience.support.brightcove.com/search.html",
+      "oldURL": "/search"
   },
 
   {
