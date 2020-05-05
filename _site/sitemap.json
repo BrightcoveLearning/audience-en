@@ -95,7 +95,7 @@
   },
 
   {
-      "newURL": "https://audience.support.brightcove.com/integrations/hubspot/",
+      "newURL": "https://audience.support.brightcove.com/get-started/",
       "oldURL": "/index"
   },
 
@@ -116,6 +116,11 @@
 
   {
       "newURL": "https://audience.support.brightcove.com/integrations/non-map/",
+      "oldURL": "/index"
+  },
+
+  {
+      "newURL": "https://audience.support.brightcove.com/integrations/hubspot/",
       "oldURL": "/index"
   },
 
@@ -141,11 +146,6 @@
 
   {
       "newURL": "https://audience.support.brightcove.com/support/",
-      "oldURL": "/index"
-  },
-
-  {
-      "newURL": "https://audience.support.brightcove.com/get-started/",
       "oldURL": "/index"
   },
 
@@ -200,6 +200,11 @@
   },
 
   {
+      "newURL": "https://audience.support.brightcove.com/support/online-training-courses.html",
+      "oldURL": "/online-training-courses"
+  },
+
+  {
       "newURL": "https://audience.support.brightcove.com/support/opening-case-with-brightcove-support.html",
       "oldURL": "/opening-case-with-brightcove-support"
   },
@@ -217,6 +222,11 @@
   {
       "newURL": "https://audience.support.brightcove.com/develop/reference.html",
       "oldURL": "/reference"
+  },
+
+  {
+      "newURL": "https://audience.support.brightcove.com/support/register-training.html",
+      "oldURL": "/register-training"
   },
 
   {
