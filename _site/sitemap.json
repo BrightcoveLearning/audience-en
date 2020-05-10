@@ -230,11 +230,6 @@
   },
 
   {
-      "newURL": "https://audience.support.brightcove.com/search-test.html",
-      "oldURL": "/search-test"
-  },
-
-  {
       "newURL": "https://audience.support.brightcove.com/search.html",
       "oldURL": "/search"
   },
