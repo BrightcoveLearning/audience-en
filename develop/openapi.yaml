@@ -39,7 +39,7 @@ paths:
         - $ref: '#/components/parameters/limit'
         - $ref: '#/components/parameters/offset'
         - $ref: '#/components/parameters/sort_leads'
-        - $ref: '#/components/parameters/fields'
+        - $ref: '#/components/parameters/fields_leads'
         - $ref: '#/components/parameters/where'
         - $ref: '#/components/parameters/from'
         - $ref: '#/components/parameters/to'
@@ -190,7 +190,7 @@ components:
     sort_leads:
       name: sort
       in: query
-      description: 'Field to sort results by (prefix with `-` for descending order)'
+      description: 'Field to sort lead results by (prefix with `-` for descending order)'
       style: form
       explode: true
       schema:
@@ -199,13 +199,24 @@ components:
       name: fields
       in: query
       description: |-
-        Fields to return
+        Fields to return for view events
 
         **Note:** by default, all fields are returned. Use this parameter to return fewer fields.
       style: form
       explode: true
       schema:
         $ref: '#/components/schemas/Fields'
+    fields_leads:
+      name: fields
+      in: query
+      description: |-
+        Fields to return for leads
+
+        **Note:** by default, all fields are returned. Use this parameter to return fewer fields.
+      style: form
+      explode: true
+      schema:
+        $ref: '#/components/schemas/FieldsLeads'
     where:
       name: where
       in: query
@@ -442,7 +453,7 @@ components:
           description: Percent of the video watched
           example: 75
     Sort:
-      title: sort
+      title: sort for view events
       enum:
         - video_id
         - video_name
@@ -540,6 +551,63 @@ components:
         - utm_campaign
         - utm_term
         - utm_content
+      type: string
+      example: video_id
+      x-enum-elements:
+        - name: video_id
+          description: Brightcove video id
+        - name: video_name
+          description: Brightcove video name
+        - name: tracking_id
+          description: Custom tracking id
+        - name: external_id
+          description: 'The Marketo, Eloqua or other custom GUID'
+        - name: player_id
+          description: Brightcove player id
+        - name: page_url
+          description: The URL of the page where the view event was created
+        - name: watched
+          description: Percent watched
+        - name: time_watched
+          description: Seconds watched
+        - name: created_at
+          description: Creation date
+        - name: updated_at
+          description: Last modified date
+        - name: is_synced
+          description: >-
+            A boolean denoting whether or not the view event has been
+            synchronized
+        - name: utm_source
+          description: UTM field found in the page_url
+        - name: utm_medium
+          description: UTM field found in the page_url
+        - name: utm_medium
+          description: UTM field found in the page_url
+        - name: utm_term
+          description: UTM field found in the page_url
+        - name: utm_content
+          description: UTM field found in the page_url
+    FieldsLeads:
+      title: fields
+      description: >-
+        Fields for Leads. See [Fields for filtering and
+        selection](https://support.brightcove.com/overview-audience-api#Retrieving_view_events)
+        for more information
+      enum:
+        - video_id
+        - video_name
+        - external_id
+        - first_name
+        - last_name
+        - email_address
+        - business_phone
+        - country
+        - company_name
+        - industry
+        - player_id
+        - page_url
+        - created_at
       type: string
       example: video_id
       x-enum-elements:
