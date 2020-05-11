@@ -352,14 +352,6 @@ components:
         video_name:
           type: string
           description: the Video Cloud video name
-        watched:
-          type: number
-          description: >-
-            'the percentage of the video watched (current playhead position /
-            video duration)'
-        time_watched:
-          type: number
-          description: the seconds of the video watched
     Get_View_Events_Response:
       title: Get View Events Response
       type: object
