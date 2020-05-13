@@ -377,18 +377,25 @@ function doGTranslate(lang_pair) {if(lang_pair.value)lang_pair=lang_pair.value;i
           <li>1000 views/24 hour period capture maximum</li>
           </ul>
           You can still manually export Audience data to a CSV or XLS file.</dd>
-      <dt class="bcls-question language-editable">What limitations does Audience have when connected to a marketing automation platform?</dt>
-      <dd class="bcls-answer language-editable">???</dd>
+      <dt class="bcls-question language-editable">What limitations/requirements does Audience have when connected to a marketing automation platform?</dt>
+      <dd class="bcls-answer language-editable">Limitations and requirements are outlined in the documentation for each platform
+        <ul>
+            <li><a href="/integrations/eloqua/integrating-video-cloud-oracle-eloqua.html">Oracle Eloqua</a></li>
+            <li>HubSpot (<a href="/integrations/hubspot/integrating-video-cloud-hubspot-using-client-side-apis.html">Client-Side APIs</a> or <a href="/integrations/hubspot/integrating-video-cloud-hubspot-using-rest-apis.html">REST APIs</a>)</li>
+            <li>Marketo (<a href="/integrations/marketo/integrating-video-cloud-marketo-using-munchkin.html">Munchkin</a> or <a href="/integrations/marketo/integrating-video-cloud-marketo-using-rest-apis.html">REST APIs</a>)</li>
+            <li><a href="/integrations/salesforce/integrating-video-cloud-salesforce.html">Salesforce</a></li>
+            </ul>
+        </dd>
       <dt class="bcls-question language-editable">Are there any limits on how often the Audience API can be polled? I know there's a 1000 cap on video search results, but are there other frequency related caps to that API endpoint? </dt>
-      <dd class="bcls-answer language-editable">The max # of view events per API call is actually 100. There’s no rate limiting in place that I know of but if you tried to call it too much it’d probably slow down quote a bit. The golf channel had trouble getting out lots of data via the API. In fact they couldn’t get it out faster than they were putting it in.</dd>
-      <dt class="bcls-question language-editable">Is there any way to get Audience data faster than the 3 hour delay that is currently present? They want real-time metrics and can't get that with the Audience analytics.</dt>
-      <dd class="bcls-answer language-editable">No. If they want real-time metrics they’d need to write their own plugin and send data to their own system.</dd>
-      <dt class="bcls-question language-editable">What is the trigger for an event view to be sent to Audience's data? Is it when the video completes, or if the player window is closed, or something else? What happens if the user never completes the video and doesn't close their player window?</dt>
+      <dd class="bcls-answer language-editable">The max # of view events per API call is actually 100. There’s no rate limiting in place but if you try to call it too much it will probably slow down  a bit.</dd>
+      <dt class="bcls-question language-editable">Is there any way to get Audience data faster than the 3 hour delay that is currently present? I'd like to get &quot;close to real-time&quot; metrics.</dt>
+      <dd class="bcls-answer language-editable">No. If you want real-time metrics you’d need to write your own plugin and send data to your own system.</dd>
+      <dt class="bcls-question language-editable">What is the trigger for an event view to be sent to Audience? Is it when the video completes, when the player window is closed, or something else? What happens if the user never completes the video and doesn't close their player window?</dt>
       <dd class="bcls-answer language-editable">It varies but basically the Audience plugin sends a heartbeat back to the server every 10 seconds.</dd>
-      <dt class="bcls-question language-editable">When does audience consider tracking on a view to be "completed"- Is it when the player window is closed, or if they complete the video? What happens if they watch part way through, pause the video and never close the player window?</dt>
-      <dd class="bcls-answer language-editable">it’s when 15 minutes have passed since we last say a heart beat, basically lack of activity.</dd>
-      <dt class="bcls-question language-editable">Is it possible for viewer data to change once it's available in the Audience viewing data? Will that event data ever be updated in the future my some kind of log consolidation? </dt>
-      <dd class="bcls-answer language-editable">Once the data is available in Audience via UI or API it’s “settled” it’s not going to change.</dd>
+      <dt class="bcls-question language-editable">When does audience consider tracking on a view to be "completed"? Is it when the player window is closed or if they complete the video? What happens if they watch part way through, pause the video and never close the player window?</dt>
+      <dd class="bcls-answer language-editable">It is when 15 minutes have passed since we last saw a heart beat, basically lack of activity.</dd>
+      <dt class="bcls-question language-editable">Is it possible for viewer data to change once it's available in the Audience viewing data? Will that event data ever be updated in the future by some kind of log consolidation? </dt>
+      <dd class="bcls-answer language-editable">Once the data is available in Audience via the UI or API it’s considered “settled” and it’s not going to change.</dd>
     </dl>
   </section>
   <section class="bcls-section" id="data-protection">
