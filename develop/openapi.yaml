@@ -7,7 +7,7 @@ info:
   description: |-
     Reference for the Brightcove Audience API, used to retrieve audience data for your accounts. To test API requests, you can use our [API Testing Tools](https://apis.support.brightcove.com/getting-started/concepts-testing-tools-brightcove-apis.html).
 
-    For additional in-depth guides to features of the API, see the **[Support Site](https://support.brightcove.com/audience-api)**.
+    For additional in-depth guides to features of the API, see the **[Support Site](/)**.
 
      **Base URL**: https://audience.api.brightcove.com/v1
   version: 1.0.0
@@ -524,7 +524,7 @@ components:
       title: fields
       description: >-
         See [Fields for filtering and
-        selection](https://support.brightcove.com/overview-audience-api#Retrieving_view_events)
+        selection](/develop/overview-audience-api.html#Retrieving_view_events)
         for more information
       enum:
         - video_id
@@ -584,7 +584,7 @@ components:
       title: fields
       description: >-
         Fields for Leads. See [Fields for filtering and
-        selection](https://support.brightcove.com/overview-audience-api#Retrieving_view_events)
+        selection](/develop/overview-audience-api.html#Retrieving_view_events)
         for more information
       enum:
         - video_id
@@ -641,7 +641,7 @@ components:
     BC_OAuth2:
       type: oauth2
       description: >-
-        Brightcove OAuth API. See the [support documentation](https://support.brightcove.com/oauth-api) or [Getting Access Tokens](https://support.brightcove.com/oauth-api-sample-get-access-token) to learn more
+        Brightcove OAuth API. See the [support documentation](https://apis.support.brightcove.com/oauth/) or [Getting Access Tokens](https://apis.support.brightcove.com/oauth/guides/getting-access-tokens.html) to learn more
       flows:
         clientCredentials:
           tokenUrl: 'https://oauth.brightcove.com/v4/access_token'
