@@ -5,7 +5,7 @@ x-bc-upstream: 'http://backend_server'
 info:
   title: Audience API Reference
   description: |-
-    Reference for the Brightcove Audience API, used to retrieve audience data for your accounts. To test API requests, you can use our [API Testing Tools](https://support.brightcove.com/node/17910).
+    Reference for the Brightcove Audience API, used to retrieve audience data for your accounts. To test API requests, you can use our [API Testing Tools](https://apis.support.brightcove.com/getting-started/concepts-testing-tools-brightcove-apis.html).
 
     For additional in-depth guides to features of the API, see the **[Support Site](https://support.brightcove.com/audience-api)**.
 
