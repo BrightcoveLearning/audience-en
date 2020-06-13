@@ -20,6 +20,11 @@
   },
 
   {
+      "newURL": "https://audience.support.brightcove.com/support/brightcove-answer.html",
+      "oldURL": "/brightcove-answer"
+  },
+
+  {
       "newURL": "https://audience.support.brightcove.com/general/configuring-audience-settings.html",
       "oldURL": "/configuring-audience-settings"
   },
@@ -100,7 +105,7 @@
   },
 
   {
-      "newURL": "https://audience.support.brightcove.com/integrations/marketo/",
+      "newURL": "https://audience.support.brightcove.com/integrations/eloqua/",
       "oldURL": "/index"
   },
 
@@ -125,11 +130,6 @@
   },
 
   {
-      "newURL": "https://audience.support.brightcove.com/integrations/",
-      "oldURL": "/index"
-  },
-
-  {
       "newURL": "https://audience.support.brightcove.com/admin/",
       "oldURL": "/index"
   },
@@ -145,6 +145,11 @@
   },
 
   {
+      "newURL": "https://audience.support.brightcove.com/integrations/",
+      "oldURL": "/index"
+  },
+
+  {
       "newURL": "https://audience.support.brightcove.com/general/",
       "oldURL": "/index"
   },
@@ -155,7 +160,7 @@
   },
 
   {
-      "newURL": "https://audience.support.brightcove.com/integrations/eloqua/",
+      "newURL": "https://audience.support.brightcove.com/integrations/marketo/",
       "oldURL": "/index"
   },
 
