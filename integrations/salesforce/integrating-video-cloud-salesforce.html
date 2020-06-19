@@ -67,6 +67,7 @@ grandparent: Integrations
     <p>Once the Video Cloud to Salesforce connection has been made, you can configure the integration. Click <strong>Salesforce User Info</strong> to see information about the account that was used when setting up the integration.</p>
     <figure class="bcls-figure"><img class="bcls-image--no-border" alt="connected options" src="/assets/images/integrations/salesforce/node16123-configure.png" /></figure>
     <ol class="bcls-tasklist-restart">
+      <li>To configure Pardot for viewer identification, click the <strong>Configure how viewers are identified</strong> link. For information on configuring a Pardot integration, see the <a href="#pardot">Configuring a Pardot integration</a> section below.</li>
       <li>By default, the <strong>Connection Status</strong> will be <strong>Enabled</strong>. The <strong>Connection Status</strong> determines if Video Cloud video engagement data is sent to Salesforce.
         <ul>
           <li><strong>Enabled</strong> - Data is collected and will be sent to Salesforce</li>
@@ -77,6 +78,41 @@ grandparent: Integrations
         <figure class="bcls-figure"><img class="bcls-image--no-border" alt="data retention options" src="/assets/images/integrations/salesforce/node16123-data-retention-options.png" /></figure>
       </li>
     </ol>
+  </section>
+  <section class="bcls-section">
+    <h2 id="pardot">Configuring a Pardot integration</h2>
+    <p>Once the Brightcove Audience to Salesforce connection has been made, you can choose to use Pardot to identify viewers. This section covers the steps to use Pardot to identify viewers.</p>
+    <aside class="bcls-aside bcls-aside--information language-editable">Note: Before configuring the Pardot integration, you should complete the steps outlined in the <a href="/integrations/salesforce/creating-salesforce-object-pardot.html">Creating a Custom Salesforce Object for Pardot Integration</a> topic.</aside>
+    <aside class="bcls-aside bcls-aside--information language-editable">Note: Brightcove recommends creating a dedicated Pardot user account to use when configuring the integration with Brightcove Campaign.</aside>
+    <ol class="bcls-tasklist">
+      <li>Click the <strong>Configure how viewers are identified</strong> link.</li>
+      <li>Enter your <strong>Email</strong> and <strong>Password</strong> you use to login to Pardot.</li>
+    </ol>
+    <h3 id="pardot-api-key">Get the Pardot API key</h3>
+    <p>To get the value for the API Key field, follow these steps.</p>
+    <ol  class="bcls-tasklist">
+      <li>Login to Pardot.</li>
+      <li> Click the gear icon (<img class="bcls-image--no-border" alt="" src="/assets/images/experiences/salesforce/pardot-gear-icon.png" />) and then <strong>Settings</strong>.</li>
+      <li> Click the <strong>My Profile</strong> link at the top of the page.</li>
+      <li> Copy the value in the <strong>API User Key</strong> field and paste it into the <strong>User Key</strong> field.</li>
+    </ol>
+    <h3 id="tracking-ids">Get the tracking IDs</h3>
+    <p>To get the value for the <strong>Tracking piAld</strong> and <strong>Tracking piCld</strong> fields, follow these steps.</p>
+    <ol class="bcls-tasklist">
+      <li>In the left navigation, click the <strong>Marketing</strong> icon and then click <strong>Campaigns</strong>.</li>
+      <li> Click on a Campaign Name (or add a campaign if there are no campaigns).
+        <aside class="bcls-aside bcls-aside--information">Note: It doesn’t matter which campaign you select, Brightcove Campaign needs both values to get the cookie to identify the viewer.</aside>
+      </li>
+      <li> Click <strong>View Tracking Code</strong>. The <strong>piAId</strong> and <strong>piCId</strong> values will be displayed.
+        <figure class="bcls-figure"><img class="bcls-image--no-border" alt="" src="/assets/images/admin/pardot-tracking-code.png" /></figure>
+      </li>
+      <li>Copy the values and paste them into their respective fields.
+        <aside class="bcls-aside bcls-aside--information">Note: Brightcove Audience doesn’t validate the piAId and piCId fields,  but if wrong values are entered, Brightcove Audience will not be able to identify the viewer.</aside>
+        <figure class="bcls-figure"><img class="bcls-image--no-border" alt="salesforce integration type" src="/assets/images/admin/pardot-credentials.png" /></figure>
+      </li>
+      <li>Click <strong>Connect to Pardot</strong>.</li>
+    </ol>
+    <p>Typically, when using the Pardot integration type, you will select the <strong>Advanced</strong> Mapping Type and then map the view fields to the <a href="/integrations/salesforce/creating-salesforce-object-pardot.html">Salesforce custom object</a> you created.</p>
   </section>
   <section class="bcls-section">
     <h2 id="configuredata">Configuring data mapping</h2>
