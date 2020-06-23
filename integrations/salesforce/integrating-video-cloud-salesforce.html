@@ -67,14 +67,17 @@ grandparent: Integrations
     <p>Once the Video Cloud to Salesforce connection has been made, you can configure the integration. Click <strong>Salesforce User Info</strong> to see information about the account that was used when setting up the integration.</p>
     <figure class="bcls-figure"><img class="bcls-image--no-border" alt="connected options" src="/assets/images/integrations/salesforce/node16123-configure.png" /></figure>
     <ol class="bcls-tasklist-restart">
-      <li>To configure Pardot for viewer identification, click the <strong>Configure how viewers are identified</strong> link. For information on configuring a Pardot integration, see the <a href="#pardot">Configuring a Pardot integration</a> section below.</li>
+      <li>To configure  viewer identification, click the <strong>Configure how viewers are identified</strong> link and then select an option: </li>
+      <ul>
+        <li><strong>Pardot</strong> - Pardot is used to identify viewers. See the <a href="#pardot">Configuring a Pardot integration</a> section below.</li>
+        <li><strong>Manual</strong> - Your development staff will be responsible for adding logic to <a href="#identify">identify viewers</a>.</li>
+      </ul>
       <li>Select a <strong>Mapping Type</strong> and <a href="#configuredata">configure data mapping</a>.</li>
-      <li>By default, the <strong>Connection Status</strong> will be <strong>Enabled</strong>. The <strong>Connection Status</strong> determines if Video Cloud video engagement data is sent to Salesforce.
-        <ul>
-          <li><strong>Enabled</strong> - Data is collected and will be sent to Salesforce</li>
-          <li><strong>Disabled</strong> - No data is collected (integration is disabled)</li>
-        </ul>
-      </li>
+      <li>By default, the <strong>Connection Status</strong> will be <strong>Enabled</strong>. The <strong>Connection Status</strong> determines if Video Cloud video engagement data is sent to Salesforce. </li>
+      <ul>
+        <li><strong>Enabled</strong> - Data is collected and will be sent to Salesforce</li>
+        <li><strong>Disabled</strong> - No data is collected (integration is disabled)</li>
+      </ul>
       <li>By default, <strong>Track Data for Unknown Viewers</strong> will be <strong>Disabled</strong>. This setting determines if video engagement data is saved in Video Cloud when the viewer is unknown. Only data for known viewers is sent to Salesforce.
         <ul>
           <li><strong>Enabled</strong> - Data for all viewers is collected and saved in Video Cloud</li>
@@ -99,7 +102,7 @@ grandparent: Integrations
     <p>To get the value for the API Key field, follow these steps.</p>
     <ol  class="bcls-tasklist">
       <li>Login to Pardot.</li>
-      <li> Click the gear icon (<img class="bcls-image--no-border" alt="" src="/assets/images/experiences/salesforce/pardot-gear-icon.png" />) and then <strong>Settings</strong>.</li>
+      <li> Click the gear icon (<img class="bcls-image--no-border" alt="" src="/assets/images/integrations/salesforce/pardot-gear-icon.png" />) and then <strong>Settings</strong>.</li>
       <li> Click the <strong>My Profile</strong> link at the top of the page.</li>
       <li> Copy the value in the <strong>API User Key</strong> field and paste it into the <strong>User Key</strong> field.</li>
     </ol>
@@ -111,11 +114,11 @@ grandparent: Integrations
         <aside class="bcls-aside bcls-aside--information">Note: It doesn’t matter which campaign you select, Brightcove Campaign needs both values to get the cookie to identify the viewer.</aside>
       </li>
       <li> Click <strong>View Tracking Code</strong>. The <strong>piAId</strong> and <strong>piCId</strong> values will be displayed.
-        <figure class="bcls-figure"><img class="bcls-image--no-border" alt="" src="/assets/images/admin/pardot-tracking-code.png" /></figure>
+        <figure class="bcls-figure"><img class="bcls-image--no-border" alt="" src="/assets/images/integrations/salesforce/pardot-tracking-code.png" /></figure>
       </li>
       <li>Copy the values and paste them into their respective fields.
         <aside class="bcls-aside bcls-aside--information">Note: Brightcove Audience doesn’t validate the piAId and piCId fields,  but if wrong values are entered, Brightcove Audience will not be able to identify the viewer.</aside>
-        <figure class="bcls-figure"><img class="bcls-image--no-border" alt="salesforce integration type" src="/assets/images/admin/pardot-credentials.png" /></figure>
+        <figure class="bcls-figure"><img class="bcls-image--no-border" alt="salesforce integration type" src="/assets/images/integrations/salesforce/pardot-credentials.png" /></figure>
       </li>
       <li>Click <strong>Connect to Pardot</strong>.</li>
     </ol>
@@ -166,7 +169,7 @@ grandparent: Integrations
   </section>
   <section class="bcls-section">
     <h2 id="identify">Identifying viewers</h2>
-    <p>For viewer tracking to occur, the user id should be passed as a URL parameter on the page that is displaying the video. Two URL parameters are supported:</p>
+    <p>If your Salesforce connection is configured to use <strong>Manual</strong> viewer identification, it's up to you to identify viewers. For viewer tracking to occur, the user id should be passed as a URL parameter on the page that is displaying the video. Two URL parameters are supported:</p>
     <ul>
       <li><strong>bcemail</strong> - To pass the viewer's email address</li>
       <li><strong>bcsfid</strong> - To pass the viewer's Salesforce ID</li>
@@ -176,9 +179,9 @@ grandparent: Integrations
   </section>
   <section class="bcls-section">
     <h2 id="sfdata">Viewing video data in Salesforce</h2>
-    <p>As videos are viewed in Audience-enabled players, video viewing data will be synced to Salesforce. If the <strong>Simple</strong> data mapping option was selected, video view data will appear as a <strong>Task</strong> entry inside Salesforce. If the <strong>Advanced</strong> data mapping option was used, viewing data will appear as part of the Salesforce object that was selecting when the mapping was configured. In the following example, <strong>Simple</strong> data mapping was used. Viewing data appears as part of the contact's <strong>Activity History</strong>. The <strong>Subject</strong> will display <strong>BC Video View</strong> along with the video name and percent watched.</p>
-    <figure class="bcls-figure"><img class="bcls-image--no-border" alt="task record" src="/assets/images/integrations/salesforce/node16123-task-record.png" /></figure>
-    <p>Clicking the <strong>Task</strong> will display additional information in the <strong>Comments</strong> field.</p>
-    <figure class="bcls-figure"><img class="bcls-image--no-border" alt="task detail" src="/assets/images/integrations/salesforce/node16123-task-detail.png" /></figure>
+    <p>As videos are viewed in Audience-enabled players, video viewing data will be synced to Salesforce. If the <strong>Simple</strong> data mapping option was selected, video view data will appear as a <strong>Task</strong> entry inside Salesforce. If the <strong>Advanced</strong> data mapping option was used, viewing data will appear as part of the Salesforce object that was selecting when the mapping was configured. In the following example, <strong>Advanced</strong> data mapping was used and the video fields were mapped to a custom <strong>BC Video View</strong> Salesforce object.</p>
+    <figure class="bcls-figure"><img class="bcls-image--no-border" alt="task record" src="/assets/images/integrations/salesforce/salesforce-bc-video-view-record.png" /></figure>
+    <p>Clicking the video name will display detailed information.</p>
+    <figure class="bcls-figure"><img class="bcls-image--no-border" alt="task detail" src="/assets/images/integrations/salesforce/salesforce-bc-video-view-detail.png" /></figure>
   </section>
 </article>
