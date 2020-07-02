@@ -88,6 +88,8 @@
       docs:
         - name: Creating Custom Lead Forms
           url: /integrations/salesforce/creating-custom-lead-forms-salesforce.html
+        - name: Creating Salesforce Object for Pardot
+          url: /integrations/salesforce/creating-custom-lead-forms-salesforce.html
         - name: Integrating with Salesforce
           url: /integrations/salesforce/integrating-video-cloud-salesforce.html
 - section:
