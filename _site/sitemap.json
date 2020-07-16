@@ -30,6 +30,11 @@
   },
 
   {
+      "newURL": "https://audience.support.brightcove.com/support/contact-sales.html",
+      "oldURL": "/contact-sales"
+  },
+
+  {
       "newURL": "https://audience.support.brightcove.com/general/creating-audience-enabled-player.html",
       "oldURL": "/creating-audience-enabled-player"
   },
@@ -110,27 +115,12 @@
   },
 
   {
+      "newURL": "https://audience.support.brightcove.com/integrations/hubspot/",
+      "oldURL": "/index"
+  },
+
+  {
       "newURL": "https://audience.support.brightcove.com/integrations/eloqua/",
-      "oldURL": "/index"
-  },
-
-  {
-      "newURL": "https://audience.support.brightcove.com/integrations/",
-      "oldURL": "/index"
-  },
-
-  {
-      "newURL": "https://audience.support.brightcove.com/integrations/salesforce/",
-      "oldURL": "/index"
-  },
-
-  {
-      "newURL": "https://audience.support.brightcove.com/general/",
-      "oldURL": "/index"
-  },
-
-  {
-      "newURL": "https://audience.support.brightcove.com/",
       "oldURL": "/index"
   },
 
@@ -140,12 +130,7 @@
   },
 
   {
-      "newURL": "https://audience.support.brightcove.com/integrations/hubspot/",
-      "oldURL": "/index"
-  },
-
-  {
-      "newURL": "https://audience.support.brightcove.com/integrations/non-map/",
+      "newURL": "https://audience.support.brightcove.com/integrations/marketo/",
       "oldURL": "/index"
   },
 
@@ -155,7 +140,7 @@
   },
 
   {
-      "newURL": "https://audience.support.brightcove.com/integrations/marketo/",
+      "newURL": "https://audience.support.brightcove.com/general/",
       "oldURL": "/index"
   },
 
@@ -165,7 +150,27 @@
   },
 
   {
+      "newURL": "https://audience.support.brightcove.com/integrations/",
+      "oldURL": "/index"
+  },
+
+  {
       "newURL": "https://audience.support.brightcove.com/develop/",
+      "oldURL": "/index"
+  },
+
+  {
+      "newURL": "https://audience.support.brightcove.com/integrations/non-map/",
+      "oldURL": "/index"
+  },
+
+  {
+      "newURL": "https://audience.support.brightcove.com/",
+      "oldURL": "/index"
+  },
+
+  {
+      "newURL": "https://audience.support.brightcove.com/integrations/salesforce/",
       "oldURL": "/index"
   },
 
