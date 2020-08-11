@@ -18,13 +18,13 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Brightcove Audience Documentation
+title: Brightcove Documentation
 email: training@brightcove.com
 description: >- # this means to ignore newlines until "baseurl:"
   Crank up conversions and track it all with Brightcove Audience. Audience allows you to leverage in-video lead capture forms, segment and score leads, and easily integrate viewer analytics into your marketing automation or CRM platforms.
 # baseurl: "" # the subpath of your site, e.g. /blog
-site_url: "https://audience.support.brightcove.com"
-site_domain: "audience.support.brightcove.com"
+site_url: "https://support.brightcove.com"
+site_domain: "support.brightcove.com"
 
 # Build settings
 # theme: minima
@@ -33,7 +33,7 @@ site_domain: "audience.support.brightcove.com"
 port: 5500
 
 
-product: Audience
+product: Template
 color: rgb(51, 51, 51)
 product_color: rgb(4, 155, 179)
 product_icon: "logo-bc-audience.svg"
