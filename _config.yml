@@ -23,8 +23,8 @@ email: training@brightcove.com
 description: >- # this means to ignore newlines until "baseurl:"
   Crank up conversions and track it all with Brightcove Audience. Audience allows you to leverage in-video lead capture forms, segment and score leads, and easily integrate viewer analytics into your marketing automation or CRM platforms.
 # baseurl: "" # the subpath of your site, e.g. /blog
-site_url: "https://support.brightcove.com"
-site_domain: "support.brightcove.com"
+site_url: "https://audience.support.brightcove.com"
+site_domain: "audience.support.brightcove.com"
 
 # Build settings
 # theme: minima
