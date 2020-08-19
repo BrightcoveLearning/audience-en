@@ -1,4 +1,4 @@
-var appID = "d89f9dbb-d575-4bf5-bb85-8df0fe0fcdf4"; 
+var appID = "00c26be3-4421-41e6-bb00-1dee68740f67"; 
 // token for anonymous profile
 var token =
 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE1ODI4MDQzNDF9.RYf2x65FXvdDURzM h00i76KfUrYlsDLsw6mVuEv6zmE';
@@ -6,10 +6,10 @@ var token =
   Talla.config = Talla.init(
     appID,
     Talla.OptionJWTCredentials(token), 
-    Talla.OptionBotName("Template Doc Search"),
+    Talla.OptionBotName("Brightcove Audience Doc Search"),
     Talla.OptionAnonymous(true),
     Talla.OptionThemeColor('rgb(4, 155, 179)'),
-    Talla.OptionDisplayName('Search Template Docs'),
+    Talla.OptionDisplayName('Search Brightcove Audience Docs'),
     Talla.OptionKnowledgeGroups(['d89f9dbb-d575-4bf5-bb85-8df0fe0fcdf4']),
     Talla.OptionWideBeacon(true),
     Talla.OptionBeaconCTA("Have a question?"),

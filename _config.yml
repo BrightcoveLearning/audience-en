@@ -33,14 +33,14 @@ site_domain: "audience.support.brightcove.com"
 port: 5500
 
 
-product: Template
+product: Brightcove Audience
 color: rgb(51, 51, 51)
 product_color: rgb(4, 155, 179)
 product_icon: "logo-bc-audience.svg"
 search_id: "017969773216783359937:kumezllft4k"
 feedbackify_id: "15071"
 bing_custom_config_id: "3c830495-b5cd-4981-a1f4-8c2f5dcc59e9"
-talla_appID: "d89f9dbb-d575-4bf5-bb85-8df0fe0fcdf4"
+talla_appID: "00c26be3-4421-41e6-bb00-1dee68740f67"
 talla_token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE1ODI4MDQzNDF9.RYf2x65FXvdDURzM h00i76KfUrYlsDLsw6mVuEv6zmE'
 talla_knowledgegroup: 'd89f9dbb-d575-4bf5-bb85-8df0fe0fcdf4'
 defaults:
