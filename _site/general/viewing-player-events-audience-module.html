@@ -356,12 +356,18 @@ function doGTranslate(lang_pair) {if(lang_pair.value)lang_pair=lang_pair.value;i
 
 <!-- search bar -->
 <div id="nav-search-box" style="margin-top: 1rem;"></div>
+<!-- in-page navigation for narrow screens -->
+<details class="centered-inpage-nav" id="centered_inpage_nav">
+  <summary><h6 class="toc">Page Contents</h6></summary>
+    <nav id="centered_toc"></nav>
+    <ul id="centered_in_page_toc" class="list-none"></ul>
+</details>
   
     
 
 
+<h1>Viewing Player Events in the Audience Module</h1>
 <article class="bcls-article">
-  <h1>Viewing Player Events in the Audience Module</h1>
   <summary>In this topic you will learn how to view player events in the Audience module.</summary>
   <section class="bcls-section">
     <p>The Audience module provides the ability to track view events. The frequency with which view events are sent to the Audience module is calculated dynamically based on the length of the video. Audience will send at a minimum 4 events, one per quartile.</p>
@@ -392,7 +398,6 @@ function doGTranslate(lang_pair) {if(lang_pair.value)lang_pair=lang_pair.value;i
     </ul>
     <p>Event data can also be filtered by status using the dropdown list at the top of the page.</p>
     <figure class="bcls-figure"><img class="bcls-image--no-border" alt="" src="/assets/images/general/node15863-filter.png" /></figure>
-    </div>
   </section>
   <section class="bcls-section">
     <h2 id="events">Viewing interaction events</h2>
@@ -424,7 +429,7 @@ function doGTranslate(lang_pair) {if(lang_pair.value)lang_pair=lang_pair.value;i
     </div>
     <div class="col-sm-2 right-side-bar">
       
-      <nav class="right-side-nav">
+      <nav class="right-side-nav" id="right_side_nav">
         <h6 class="toc">Page Contents</h6>
         <ul id="in_page_nav" class="list-none"></ul>
       </nav>
@@ -435,7 +440,7 @@ function doGTranslate(lang_pair) {if(lang_pair.value)lang_pair=lang_pair.value;i
 
 <hr>
 <div class="last-updated">
-  Page last updated on 30 Jan 2020
+  Page last updated on 01 Aug 2020
 </div>
 
 
