@@ -3,7 +3,7 @@
   url: /
 - section:
   name: Getting Started
-  url: /get-started/
+  url: /get-started/index.html
   icon: '<i class="far fa-location-arrow"></i>'
   docs:
     - name: Getting Started with Audience
@@ -13,7 +13,7 @@
 - section:
   name: General Information
   icon: '<i class="far fa-info-circle"></i>'
-  url: /general/
+  url: /general/index.html
   docs:
     - name: Audience Fields and Data Definitions
       url: /general/audience-fields-and-data-definitions.html
@@ -39,10 +39,10 @@
       url: /general/working-utm-fields-audience-module.html
 - section:
   name: Integrations
-  url: /integrations/
+  url: /integrations/index.html
   docs:
     - name: Eloqua
-      url: /integrations/eloqua/
+      url: /integrations/eloqua/index.html
       docs:
         - name: Creating Custom Lead Forms
           url: /integrations/eloqua/creating-custom-lead-forms-oracle-eloqua.html
@@ -53,7 +53,7 @@
         - name: Integrating with Oracle Eloqua
           url: /integrations/eloqua/integrating-video-cloud-oracle-eloqua.html
     - name: HubSpot
-      url: /integrations/hubspot/
+      url: /integrations/hubspot/index.html
       docs:
         - name: Creating Custom Lead Forms
           url: /integrations/hubspot/creating-custom-lead-forms-hubspot.html
@@ -64,7 +64,7 @@
         - name: 'Integrating with HubSpot (REST APIs)'
           url: /integrations/hubspot/integrating-video-cloud-hubspot-using-rest-apis.html
     - name: Marketo
-      url: /integrations/marketo/
+      url: /integrations/marketo/index.html
       docs:
         - name: Creating Custom Lead Forms
           url: /integrations/marketo/creating-custom-lead-forms-marketo.html
@@ -75,7 +75,7 @@
         - name: Marketo REST Integration Testing Guide
           url: /integrations/marketo/marketo-rest-integration-testing-guide.html
     - name: Non-MAP
-      url: /integrations/non-map/
+      url: /integrations/non-map/index.html
       docs:
         - name: Creating Custom Integrations
           url: /integrations/non-map/creating-custom-integrations-audience-module.html
@@ -84,7 +84,7 @@
         - name: Using Audience to Track Viewers
           url: /integrations/non-map/using-audience-module-track-viewers.html
     - name: Salesforce
-      url: /integrations/salesforce/
+      url: /integrations/salesforce/index.html
       docs:
         - name: Creating Custom Lead Forms
           url: /integrations/salesforce/creating-custom-lead-forms-salesforce.html
@@ -94,7 +94,7 @@
           url: /integrations/salesforce/integrating-video-cloud-salesforce.html
 - section:
   name: Administering Audience
-  url: /admin/
+  url: /admin/index.html
   docs:
     - name: Exporting Data from Audience
       url: /admin/exporting-audience-data-audience-module.html
@@ -106,7 +106,7 @@
       url: /admin/troubleshooting-audience-issues.html
 - section:
   name: Developers
-  url: /develop/
+  url: /develop/index.html
   docs:
     - name: 'Overview: Audience API'
       url: /develop/overview-audience-api.html
@@ -114,7 +114,7 @@
       url: /develop/reference.html
 - section:
   name: Support
-  url: /support/
+  url: /support/index.html
   docs:
     - name: 'Brightcove Answers'
       url: '/support/brightcove-answer.html'
