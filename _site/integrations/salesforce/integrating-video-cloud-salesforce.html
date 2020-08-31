@@ -534,7 +534,7 @@ function doGTranslate(lang_pair) {if(lang_pair.value)lang_pair=lang_pair.value;i
     <h2 id="identify">Identifying viewers</h2>
     <p>If your Salesforce connection is configured to use <strong>Manual</strong> viewer identification, it's up to you to identify viewers. For viewer tracking to occur, the user id should be passed as a URL parameter on the page that is displaying the video. Two URL parameters are supported:</p>
     <ul>
-      <li><strong>bcemail</strong> - To pass the viewer's email address</li>
+      <li><strong>bcemail</strong> - To pass the viewer's email address (for an example, see <a href="/general/how-audience-module-identifies-viewers.html#email">this topic</a>)</li>
       <li><strong>bcsfid</strong> - To pass the viewer's Salesforce ID</li>
     </ul>
     <p>In this scenario, video landing pages would be generated with a URL that’s been uniquely generated for tracking purposes. The Audience module will then use the URL parameter to look up the user server-side and sync viewing data.</p>

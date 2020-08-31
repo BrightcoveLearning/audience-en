@@ -494,8 +494,8 @@ function doGTranslate(lang_pair) {if(lang_pair.value)lang_pair=lang_pair.value;i
     <h2 id="identify">Identifying viewers</h2>
     <p>For viewer tracking to occur, the viewer can be tracked in one of two ways:</p>
     <ul>
-      <li><strong>URL parameter</strong> - The user's email address can be passed in a <strong>bcemail</strong> URL parameter on the page that is displaying the video</li>
-      <li><strong>HubSpot cookie</strong>- When the player loads, Audience looks to see if the user has been cookied by HubSpot already. If so, Audience will ask HubSpot if it knows who the user is via the cookie value. If HubSpot returns a contact, Audience will associate all the viewing data with that user.</li>
+      <li><strong>URL parameter</strong> - The user's email address can be passed in a <strong>bcemail</strong> URL parameter on the page that is displaying the video. For more information and an example, see <a href="/general/how-audience-module-identifies-viewers.html#email">How the Audience Module Identifies Viewers</a>.</li>
+      <li><strong>HubSpot cookie </strong>- When the player loads, Audience looks to see if the user has been cookied by HubSpot already. If so, Audience will ask HubSpot if it knows who the user is via the cookie value. If HubSpot returns a contact, Audience will associate all the viewing data with that user.</li>
     </ul>
     <p>One possible scenario is to create video landing pages with a URL that’s been uniquely generated for tracking purposes. The Audience module will then use the URL parameter to look up the user server-side and sync viewing data.</p>
     <p>In order for the player/plugin to read the URL parameters, the Advanced Embed (in-page) publishing code should be used. The Standard Embed (iframe) publishing code will not work as the plugin will be running inside of an iframe and therefore is unable to access the parent page URL which has the parameter.</p>
