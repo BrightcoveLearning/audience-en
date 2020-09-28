@@ -80,7 +80,7 @@ parent: Developers
     </table>
     <p>Below is a sample response body for an error:</p>
     <pre class="line-numbers">
-<code class="language-json">[
+<code class="language-json" translate="No">[
    {
     "error_code": "UNAUTHORIZED_ERROR",
     "message": "Permission denied"
@@ -130,7 +130,7 @@ parent: Developers
     <h3 id="Paging_results">Paging results</h3>
     <p>The <code translate="No">limit</code> is the number of items to return (default: 25; maximum: 100). <code translate="No">offset</code> is the number of items to skip (default: 0). You can use <code translate="No">limit</code> and <code translate="No">offset</code> together to create an app that pages through the results. Each includes the <code translate="No">limit</code>, <code translate="No">offset</code>, and <code translate="No">count.</code>, which you can use to set up iteration over total results. For example, in JavaScript, you could get the total iterations required like this:</p>
     <pre class="line-numbers">
-<code class="language-javascript">// response is the JSON-parsed response from the first request
+<code class="language-javascript" translate="No">// response is the JSON-parsed response from the first request
 var totalRequests = Math.ceil(response.count / response.limit)</code></pre>
   </section>
   <section class="bcls-section">
@@ -141,11 +141,11 @@ var totalRequests = Math.ceil(response.count / response.limit)</code></pre>
     <aside class="bcls-aside bcls-aside--warning">Only view events that have been <em>processed</em> will appear in the response.</aside>
     <p>Here is sample request in cURL</p>
     <pre class="line-numbers">
-<code class="language-bash">curl -i https://audience.api.brightcove.com/v1/accounts/{account_id}/view_events?where=video_id==123&amp;from=-5d&amp;to=now&amp;sort=-created_at \
+<code class="language-bash" translate="No">curl -i https://audience.api.brightcove.com/v1/accounts/{account_id}/view_events?where=video_id==123&amp;from=-5d&amp;to=now&amp;sort=-created_at \
   -H "Authorization: Bearer {token}"</code></pre>
     <p>The response will look like this:</p>
     <pre class="line-numbers">
-<code class="language-json">{
+<code class="language-json" translate="No">{
     "count": 27,
     "limit": 25,
     "offset": 0,
@@ -176,7 +176,7 @@ var totalRequests = Math.ceil(response.count / response.limit)</code></pre>
     <p>All the <a href="#Parameters">parameters</a> can be used with <code translate="No">view_event</code> requests.</p>
     <p>Here is sample request in cURL using the parameters:</p>
     <pre class="line-numbers">
-<code class="language-bash">curl -i https://audience.api.brightcove.com/v1/accounts/{account_id}/view_events?where=video_id==123&amp;from=-5d&amp;to=now&amp;sort=-created_at \
+<code class="language-bash" translate="No">curl -i https://audience.api.brightcove.com/v1/accounts/{account_id}/view_events?where=video_id==123&amp;from=-5d&amp;to=now&amp;sort=-created_at \
   -H "Authorization: Bearer {token}"</code></pre>
     <p>The following fields are supported for <code translate="No">view_event</code> requests when filtering with a <code translate="No">where</code> clause or when selecting during a <code translate="No">fields</code> clause:</p>
     <table class="bcls-table">
@@ -261,7 +261,7 @@ var totalRequests = Math.ceil(response.count / response.limit)</code></pre>
 <code class="language-http">https://audience.api.brightcove.com/v1/accounts/{account_id}/leads</code></pre>
     <p>Sample response:</p>
     <pre class="line-numbers">
-<code class="language-json">{
+<code class="language-json" translate="No">{
     "count": 2,
     "limit": 25,
     "offset": 0,
@@ -290,7 +290,7 @@ var totalRequests = Math.ceil(response.count / response.limit)</code></pre>
     <p>All the <a href="#Parameters">parameters</a> can be used with <code translate="No">leads</code> requests.</p>
     <p>Here is sample request in cURL using the parameters:</p>
     <pre class="line-numbers">
-<code class="language-bash">curl -i https://audience.api.brightcove.com/v1/accounts/{account_id}/leads?where=video_id==123&amp;from=-5d&amp;to=now&amp;sort=-created_at \
+<code class="language-bash" translate="No">curl -i https://audience.api.brightcove.com/v1/accounts/{account_id}/leads?where=video_id==123&amp;from=-5d&amp;to=now&amp;sort=-created_at \
   -H "Authorization: Bearer {token}"</code></pre>
     <p>The following fields are supported for <code translate="No">leads</code> requests when filtering with a <code translate="No">where</code> clause or when selecting during a <code translate="No">fields</code> clause:</p>
     <table class="bcls-table">
