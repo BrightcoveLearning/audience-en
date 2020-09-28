@@ -19,14 +19,14 @@ grandparent: Integrations
   </section>
   <section class="bcls-section">
     <h2 id="sso">Configuring SSO software</h2>
-    <p>The steps to install and configure SSO software is outside the scope of this topic. The SSO software should be configured so users have to authenticate themselves before they can view Video Cloud videos. The SSO software should be configured to expose some user attributes so they can be accessed from an external application. For example, this Okta SSO configuration exposes three attributes, <code>FirstName</code>, <code>LastName</code> and <code>Email</code>.</p>
+    <p>The steps to install and configure SSO software is outside the scope of this topic. The SSO software should be configured so users have to authenticate themselves before they can view Video Cloud videos. The SSO software should be configured to expose some user attributes so they can be accessed from an external application. For example, this Okta SSO configuration exposes three attributes, <code translate="No">FirstName</code>, <code translate="No">LastName</code> and <code translate="No">Email</code>.</p>
     <figure class="bcls-figure"><img class="bcls-image--no-border" alt="okta setup" src="/assets/images/general/node18363-okta.png" /></figure>
-    <p>In this topic, the <code>Email</code> attribute will be used to identify viewers to the Audience module.</p>
+    <p>In this topic, the <code translate="No">Email</code> attribute will be used to identify viewers to the Audience module.</p>
     <aside class="bcls-aside bcls-aside--information">Note: Even though your SSO software can be configured to expose multiple attributes, Audience will only use a single attribute to track viewers.</aside>
   </section>
   <section class="bcls-section">
     <h2 id="attributes">Configuring an application to access SSO attributes</h2>
-    <p>The application or website that will be used to view Video Cloud videos should be configured so that the SSO attributes are made available to Audience using JavaScript. This configuration will vary based upon the application or website being used. In the following example, an SSO access control profile was created in Gallery. As part of the configuration, the <code>Email</code> SSO attribute is being exposed and will be available inside the Gallery site. This is the value that will be used to identify viewers to the Audience module.</p>
+    <p>The application or website that will be used to view Video Cloud videos should be configured so that the SSO attributes are made available to Audience using JavaScript. This configuration will vary based upon the application or website being used. In the following example, an SSO access control profile was created in Gallery. As part of the configuration, the <code translate="No">Email</code> SSO attribute is being exposed and will be available inside the Gallery site. This is the value that will be used to identify viewers to the Audience module.</p>
     <figure class="bcls-figure"><img class="bcls-image--no-border" alt="okta setup" src="/assets/images/general/node18363-gallery-config.png" /></figure>
     <aside class="bcls-aside bcls-aside--information">Note: For information on configuring Access Control Profiles in Gallery, see <a href="https://gallery.support.brightcove.com/settings/configuring-access-control-profiles.html">Configuring Access Control Profiles</a>.</aside>
     <aside class="bcls-aside bcls-aside--information">Note: Even though Gallery can be configured to expose multiple attributes, Audience will only use a single attribute to track viewers.</aside>
@@ -53,7 +53,7 @@ grandparent: Integrations
     <p>Once the SSO connection has been made, you can configure the integration.</p>
     <figure class="bcls-figure"><img class="bcls-image--no-border" alt="connected options" src="/assets/images/general/node18363-connected-options.png" /></figure>
     <ol class="bcls-tasklist-restart">
-      <li>Click the <code>empty</code> link in the <strong>SSO Property</strong> section. Enter the name of the JavaScript value to look for in the page. In this example, Gallery was configured to expose the <code>Email</code> SSO attribute so that is what is being used here.
+      <li>Click the <code translate="No">empty</code> link in the <strong>SSO Property</strong> section. Enter the name of the JavaScript value to look for in the page. In this example, Gallery was configured to expose the <code translate="No">Email</code> SSO attribute so that is what is being used here.
         <figure class="bcls-figure"><img class="bcls-image--no-border" alt="email attribute" src="/assets/images/general/node18363-email-attribute.png" /></figure>
         <p>In this topic, the Audience SSO integration will be used to track viewing activity. Click <strong>Save</strong>.</p>
         <aside class="bcls-aside bcls-aside--information">Note: It is also possible to leave the <strong>SSO Property</strong> empty and then use one of the <a href="#identify">additional options</a> to identify viewers.</aside>
@@ -86,9 +86,9 @@ grandparent: Integrations
       <tbody class="bcls-table__body">
         <tr>
           <td>What’s the GUID (needed for view event tracking)</td>
-          <td><code>bcssoguid</code></td>
-          <td><code>data-bc-sso-guid</code></td>
-          <td><code>string</code></td>
+          <td><code translate="No">bcssoguid</code></td>
+          <td><code translate="No">data-bc-sso-guid</code></td>
+          <td><code translate="No">string</code></td>
         </tr>
       </tbody>
     </table>
@@ -96,7 +96,7 @@ grandparent: Integrations
     <aside class="bcls-aside bcls-aside--information">Note: In order for the player/plugin to read the URL parameter, the Advanced (in-page) embed code should be used. The Standard (iframe) embed code will not work as the plugin will be running inside of an iframe and therefore is unable to access the parent page URL which has the parameter.</aside>
     <p>It’s also possible to pass the GUID to the Audience player using a JavaScript value that’s available in the page. Using the player config, it’s possible to tell Audience what the name of the JavaScript variable is and Audience will then attempt to read that variable using it as the custom GUID. To do this, edit the Audience player and configure the plugin options for the Audience plugin.</p>
     <figure class="bcls-figure"><img class="bcls-image--no-border" alt="plugin params" src="/assets/images/general/node18363-plugin-params.png" /></figure>
-    <p>In the above example, the player config is telling Audience that there’s a JavaScript object in the page called <code>samlAttributes</code> and it has a property called <code>nameID</code>. Audience will attempt to read that and use its value for the custom GUID.</p>
+    <p>In the above example, the player config is telling Audience that there’s a JavaScript object in the page called <code translate="No">samlAttributes</code> and it has a property called <code translate="No">nameID</code>. Audience will attempt to read that and use its value for the custom GUID.</p>
   </section>
   <section class="bcls-section">
     <h2 id="player">Creating an Audience-enabled player</h2>

@@ -464,15 +464,15 @@ function doGTranslate(lang_pair) {if(lang_pair.value)lang_pair=lang_pair.value;i
       <tbody class="bcls-table__body">
         <tr>
           <td>Is the viewer known (needed for lead form)</td>
-          <td><code>bcknownuser</code></td>
-          <td><code>data-bc-known-user</code></td>
-          <td><code>0</code> or <code>1</code></td>
+          <td><code translate="No">bcknownuser</code></td>
+          <td><code translate="No">data-bc-known-user</code></td>
+          <td><code translate="No">0</code> or <code translate="No">1</code></td>
         </tr>
         <tr>
           <td>What’s the GUID (needed for view event tracking)</td>
-          <td><code>bccustomguid</code></td>
-          <td><code>data-bc-custom-guid</code></td>
-          <td><code>string</code></td>
+          <td><code translate="No">bccustomguid</code></td>
+          <td><code translate="No">data-bc-custom-guid</code></td>
+          <td><code translate="No">string</code></td>
         </tr>
       </tbody>
     </table>
@@ -481,7 +481,7 @@ function doGTranslate(lang_pair) {if(lang_pair.value)lang_pair=lang_pair.value;i
     <aside class="bcls-aside bcls-aside--information">Note: In order for the player/plugin to read the URL parameters, the Advanced (in-page) embed code should be used. The Standard (iframe) embed code will not work as the plugin will be running inside of an iframe and therefore is unable to access the parent page URL which has the parameter.</aside>
     <p>It’s also possible to pass the GUID to the Audience player using a JavaScript value that’s available in the page. Using the player config, it’s possible to tell Audience what the name of the JavaScript variable is and Audience will then attempt to read that variable using it as the custom GUID. To do this, edit the Audience player and configure the plugin options for the Audience plugin.</p>
     <figure class="bcls-figure"><img class="bcls-image--no-border" alt="select custom" src="/assets/images/integrations/custom/node16577-plugin-params.png" /></figure>
-    <p>In the above example, the player config is telling Audience that there’s a JavaScript object in the page called <code>samlAttributes</code> and it has a property called <code>nameID</code>. Audience will attempt to read that and use its value for the custom GUID.</p>
+    <p>In the above example, the player config is telling Audience that there’s a JavaScript object in the page called <code translate="No">samlAttributes</code> and it has a property called <code translate="No">nameID</code>. Audience will attempt to read that and use its value for the custom GUID.</p>
   </section>
   <section class="bcls-section">
     <h2 id="viewdata">Viewing video data</h2>

@@ -7,7 +7,7 @@ parent: Administering Audience
   <summary>In this topic you will learn how to export lead form data collected through Gallery experiences.</summary>
   <section class="bcls-section">
     <h2 id="logging">Enabling verbose logging</h2>
-    <p>Enabling verbose logging allows you to view Audience related information in the browser console. This is helpful when trying to debug Audience issues. Verbose logging can be enabled by adding&nbsp;<code>bcverbose=1</code> to the URL of the page with the Audience-enabled player or by configuring the Audience plugin with the <code>"verbose": true</code> option:</p>
+    <p>Enabling verbose logging allows you to view Audience related information in the browser console. This is helpful when trying to debug Audience issues. Verbose logging can be enabled by adding&nbsp;<code translate="No">bcverbose=1</code> to the URL of the page with the Audience-enabled player or by configuring the Audience plugin with the <code translate="No">"verbose": true</code> option:</p>
     <figure class="bcls-figure"><img class="bcls-image--no-border" alt="configure plugin" src="/assets/images/admin/node18487-plugin.png" /></figure>
     <p>Log messages can be viewed in the console.</p>
     <figure class="bcls-figure"><img class="bcls-image--no-border" alt="console" src="/assets/images/admin/node18487-console.png" /></figure>
@@ -18,11 +18,11 @@ parent: Administering Audience
     <h3>Why do lead forms continue to show for Marketo Munchkin integrations even after the form has been submitted?</h3>
     <p>The Munchkin integration doesn't have an API that we can use to ask if the user is known or not. Since we don't know if they’re a known user, we always display the lead form. The Marketo REST integration does offer APIs so we can determine known vs. unknown users. Switching to a Marketo REST integration is recommended and can avoid this issue.</p>
     <h3>My custom lead form is set to redirect on submit. Why do I see the page that’s redirected to for a second or two after submitting the form?</h3>
-    <p>We have to wait until the page that’s redirected to has fully loaded before dismissing the lead form. One solution is to redirect to a page that is lightweight (doesn’t have many images or JavaScript), or the blank page we set up (located at <code>https://map.brightcove.com/lead/complete</code>) specifically to address this problem.</p>
+    <p>We have to wait until the page that’s redirected to has fully loaded before dismissing the lead form. One solution is to redirect to a page that is lightweight (doesn’t have many images or JavaScript), or the blank page we set up (located at <code translate="No">https://map.brightcove.com/lead/complete</code>) specifically to address this problem.</p>
     <h3>I configured my lead form with confirmation HTML. Why do I see a black screen for a couple seconds after submission?</h3>
     <p>Make sure to change the text color of the HTML. The confirmation HTML is probably visible, you just can’t see it because the default text color is black.</p>
     <h3>Why doesn't my HubSpot lead form dismiss after submission?</h3>
-    <p>Make sure the lead form in HubSpot is configured to redirect to <code><strong>http://map.brightcove.com/lead/complete</strong></code>. If you want to display a confirmation message, configure this within Audience and not HubSpot.</p>
+    <p>Make sure the lead form in HubSpot is configured to redirect to <code translate="No"><strong>http://map.brightcove.com/lead/complete</strong></code>. If you want to display a confirmation message, configure this within Audience and not HubSpot.</p>
     <h3>Why is my lead form not displaying?</h3>
     <p>If your lead form is not displaying, first ensure all the criteria for showing a lead form have been met. Note that criteria that depend on multiple videos being watched will not work across page refreshes. They are meant for use cases where the next video is automatically queued in the same player.</p>
     <ol class="bcls-tasklist-restart">
