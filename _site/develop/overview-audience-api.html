@@ -378,13 +378,13 @@ function doGTranslate(lang_pair) {if(lang_pair.value)lang_pair=lang_pair.value;i
     <h2 id="Base_URL">Base URL</h2>
     <p>The base URL for the Audience API is:</p>
     <pre class="line-numbers">
-<code class="language-http">https://audience.api.brightcove.com/v1</code></pre>
+<code class="language-http" translate="No">https://audience.api.brightcove.com/v1</code></pre>
   </section>
   <section class="bcls-section">
     <h2 id="Account_path">Account path</h2>
     <p>In all cases, requests will be made for a specific Video Cloud Account. You will always need to add the term “accounts” followed by your account ID to the base URL:</p>
     <pre class="line-numbers">
-<code class="language-http">https://audience.api.brightcove.com/v1/accounts/{account_id} </code></pre>
+<code class="language-http" translate="No">https://audience.api.brightcove.com/v1/accounts/{account_id} </code></pre>
   </section>
   <section class="bcls-section">
     <h2 id="Authentication">Authentication</h2>
@@ -396,7 +396,7 @@ function doGTranslate(lang_pair) {if(lang_pair.value)lang_pair=lang_pair.value;i
     <p>You can get client credentials directly from the Brightcove OAuth Service using <a href="https://apis.support.brightcove.com/oauth/guides/oauth-create-client-credentials-using-curl.html">cURL</a> or <a href="https://apis.support.brightcove.com/oauth/guides/oauth-create-client-credentials-using-postman.html">Postman</a>.</p>
     <p>You will also need an <code translate="No">access_token</code>, which is obtained using the <code translate="No">client_id</code> and <code translate="No">client_secret</code> and passed in an Authorization header with your API request:</p>
     <pre class="line-numbers">
-<code class="language-http">Authorization: Bearer <em>{access_token}</em></code></pre>
+<code class="language-http" translate="No">Authorization: Bearer <em>{access_token}</em></code></pre>
     <p>The <code translate="No">access_token</code> expires after five minutes, so you must obtain one for each request, or check to make sure that your token is still valid. See <a href="https://apis.support.brightcove.com/oauth/guides/getting-access-tokens.html">Getting Access Tokens</a> for a detailed explanation of how to get access tokens, including code samples.</p>
   </section>
   <section class="bcls-section">
@@ -458,18 +458,18 @@ function doGTranslate(lang_pair) {if(lang_pair.value)lang_pair=lang_pair.value;i
     <h3 id="Filtering_results">Filtering results</h3>
     <p>You can filter the results using the <code translate="No">where</code> parameter. The syntax for filters is:</p>
     <pre class="line-numbers">
-<code class="language-http">where=field1==value1;field2==value2</code></pre>
+<code class="language-http" translate="No">where=field1==value1;field2==value2</code></pre>
     <p>For example:</p>
     <pre class="line-numbers">
-<code class="language-http">where=video_id==123456789;video_name==test</code></pre>
+<code class="language-http" translate="No">where=video_id==123456789;video_name==test</code></pre>
     <p>Commas are treated as logical ORs and semicolons as logical ANDs. For example, <code translate="No">where=video_id==1234,5678;video_name=test</code> is interpreted as "where video_id = 1234 OR 5678, AND video_name = test".</p>
     <h3>Selecting fields to return</h3>
     <p>A list of fields may be specified in the request to limit the results to that subset of fields. The syntax for fields is:</p>
     <pre class="line-numbers">
-<code class="language-http">fields=field1,field4</code></pre>
+<code class="language-http" translate="No">fields=field1,field4</code></pre>
     <p>For example:</p>
     <pre class="line-numbers">
-<code class="language-http">fields=video_id,video_name</code></pre>
+<code class="language-http" translate="No">fields=video_id,video_name</code></pre>
     <p>The fields that you can filter and sort on are detailed for each request type in the sections that follow.</p>
     <h3 id="Date_ranges">Date ranges</h3>
     <p>Date ranges can be specified in <code translate="No">from</code> and <code translate="No">to</code> parameters and are applied to the date that the view event was last updated (the updated_at field). Date ranges can be indicated in the following formats:</p>
@@ -484,11 +484,11 @@ function doGTranslate(lang_pair) {if(lang_pair.value)lang_pair=lang_pair.value;i
       </li>
       <li>Relative dates: you can express either of the <code translate="No">to</code> and <code translate="No">from</code> values relative to the other one in <code translate="No">d</code> (days), <code translate="No">h</code> (hours), <code translate="No">m</code> (minutes), or <code translate="No">s</code> (sec). For example:
         <ul>
-          <li><code class="language-http">from=2015-01-01&amp;to=31d</code></li>
-          <li><code class="language-http">from=-48h&amp;to=now</code></li>
-          <li><code class="language-http">from=-2d&amp;to=now</code> (will give the same results as the previous example)</li>
-          <li><code class="language-http">from=-365d&amp;to=2015-12-31</code></li>
-          <li><code class="language-http">from=-10m&amp;to=now</code></li>
+          <li><code class="language-http" translate="No">from=2015-01-01&amp;to=31d</code></li>
+          <li><code class="language-http" translate="No">from=-48h&amp;to=now</code></li>
+          <li><code class="language-http" translate="No">from=-2d&amp;to=now</code> (will give the same results as the previous example)</li>
+          <li><code class="language-http" translate="No">from=-365d&amp;to=2015-12-31</code></li>
+          <li><code class="language-http" translate="No">from=-10m&amp;to=now</code></li>
         </ul>
       </li>
     </ul>
@@ -502,7 +502,7 @@ var totalRequests = Math.ceil(response.count / response.limit)</code></pre>
     <h2 id="Retrieving_view_events">Retrieving view events</h2>
     <p>To retrieve view events in an account, perform a <code translate="No">GET</code> request to the view_events resource:</p>
     <pre class="line-numbers">
-<code class="language-http">https://audience.api.brightcove.com/v1/accounts/{account_id}/view_events</code></pre>
+<code class="language-http" translate="No">https://audience.api.brightcove.com/v1/accounts/{account_id}/view_events</code></pre>
     <aside class="bcls-aside bcls-aside--warning">Only view events that have been <em>processed</em> will appear in the response.</aside>
     <p>Here is sample request in cURL</p>
     <pre class="line-numbers">
@@ -623,7 +623,7 @@ var totalRequests = Math.ceil(response.count / response.limit)</code></pre>
     <h2 id="Retrieving_Leads">Retrieving leads</h2>
     <p>To retrieve view events in an account, perform a <code translate="No">GET</code> request to the <code translate="No">view_events</code> resource:</p>
     <pre class="line-numbers">
-<code class="language-http">https://audience.api.brightcove.com/v1/accounts/{account_id}/leads</code></pre>
+<code class="language-http" translate="No">https://audience.api.brightcove.com/v1/accounts/{account_id}/leads</code></pre>
     <p>Sample response:</p>
     <pre class="line-numbers">
 <code class="language-json" translate="No">{
