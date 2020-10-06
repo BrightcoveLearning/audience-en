@@ -451,13 +451,13 @@ function doGTranslate(lang_pair) {if(lang_pair.value)lang_pair=lang_pair.value;i
       <li>Example: Added to player embed code</li>
     </ul>
     <pre>
-<code language="html">&lt;video data-video-id="6033402539001" 
-        data-account="1486906377" 
-        data-player="default" 
-        data-embed="default" 
-        data-application-id 
+<code language="html">&lt;video data-video-id="6033402539001"
+        data-account="1486906377"
+        data-player="default"
+        data-embed="default"
+        data-application-id
         class="video-js"
-        <strong>data-bc-trackingid="12345"</strong> 
+        <strong>data-bc-trackingid="12345"</strong>
         controls&gt;&lt;/video&gt;
 &lt;script src="//players.brightcove.net/1486906377/default_default/index.min.js"&gt;&lt;/script&gt;
   </code></pre>
@@ -492,9 +492,6 @@ function doGTranslate(lang_pair) {if(lang_pair.value)lang_pair=lang_pair.value;i
     &nbsp;
     <p>These values can be passed in via URL parameters or through the player embed code. For viewer tracking to occur, the user id should be passed as a URL parameter on the page that is displaying the video. The known user parameter is required for lead forms (if you'd like the lead form to conditionally display for unknown viewers).</p>
     <aside class="bcls-aside bcls-aside--information">Note: In order for the player/plugin to read the URL parameters, the Advanced (in-page) embed code should be used. The Standard (iframe) embed code will not work as the plugin will be running inside of an iframe and therefore is unable to access the parent page URL which has the parameter.</aside>
-    <p>It’s also possible to pass the GUID to the Audience player using a JavaScript value that’s available in the page. Using the player config, it’s possible to tell Audience what the name of the JavaScript variable is and Audience will then attempt to read that variable using it as the custom GUID. To do this, edit the Audience player and configure the plugin options for the Audience plugin.</p>
-    <figure class="bcls-figure"><img class="bcls-image--no-border" alt="select custom" src="/assets/images/integrations/custom/node16577-plugin-params.png" /></figure>
-    <p>In the above example, the player config is telling Audience that there’s a JavaScript object in the page called <code translate="No">samlAttributes</code> and it has a property called <code translate="No">nameID</code>. Audience will attempt to read that and use its value for the custom GUID.</p>
   </section>
   <section class="bcls-section">
     <h2 id="viewdata">Viewing video data</h2>
