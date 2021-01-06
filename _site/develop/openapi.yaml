@@ -27,7 +27,7 @@ paths:
       tags:
         - Leads
       summary: Get Leads
-      description: 'Get leads for an account '
+      description: Get leads for an account
       operationId: GetLeads
       security:
         - BC_OAuth2:
@@ -221,7 +221,7 @@ components:
       name: where
       in: query
       description: >-
-        0ne or more field==value pairs to filter the results; fields
+        One or more field==value pairs to filter the results; fields
         supported are `video_id`, `video_name`, `tracking_id`,
         `external_id`, `player_id`, `page_url`, `watched`, `time_watched`,
         `created_at`, `updated_at`, `is_synced`
