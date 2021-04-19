@@ -20,11 +20,6 @@
   },
 
   {
-      "newURL": "https://audience.support.brightcove.com/support/brightcove-answer.html",
-      "oldURL": "/brightcove-answer"
-  },
-
-  {
       "newURL": "https://audience.support.brightcove.com/general/configuring-audience-settings.html",
       "oldURL": "/configuring-audience-settings"
   },
@@ -120,17 +115,17 @@
   },
 
   {
-      "newURL": "https://audience.support.brightcove.com/integrations/hubspot/",
+      "newURL": "https://audience.support.brightcove.com/integrations/marketo/",
       "oldURL": "/index"
   },
 
   {
-      "newURL": "https://audience.support.brightcove.com/admin/",
+      "newURL": "https://audience.support.brightcove.com/support/",
       "oldURL": "/index"
   },
 
   {
-      "newURL": "https://audience.support.brightcove.com/develop/",
+      "newURL": "https://audience.support.brightcove.com/integrations/",
       "oldURL": "/index"
   },
 
@@ -140,7 +135,7 @@
   },
 
   {
-      "newURL": "https://audience.support.brightcove.com/integrations/",
+      "newURL": "https://audience.support.brightcove.com/develop/",
       "oldURL": "/index"
   },
 
@@ -160,17 +155,17 @@
   },
 
   {
+      "newURL": "https://audience.support.brightcove.com/integrations/hubspot/",
+      "oldURL": "/index"
+  },
+
+  {
       "newURL": "https://audience.support.brightcove.com/integrations/non-map/",
       "oldURL": "/index"
   },
 
   {
-      "newURL": "https://audience.support.brightcove.com/integrations/marketo/",
-      "oldURL": "/index"
-  },
-
-  {
-      "newURL": "https://audience.support.brightcove.com/support/",
+      "newURL": "https://audience.support.brightcove.com/admin/",
       "oldURL": "/index"
   },
 
