@@ -110,17 +110,7 @@
   },
 
   {
-      "newURL": "https://audience.support.brightcove.com/general/",
-      "oldURL": "/index"
-  },
-
-  {
-      "newURL": "https://audience.support.brightcove.com/integrations/marketo/",
-      "oldURL": "/index"
-  },
-
-  {
-      "newURL": "https://audience.support.brightcove.com/support/",
+      "newURL": "https://audience.support.brightcove.com/integrations/eloqua/",
       "oldURL": "/index"
   },
 
@@ -135,12 +125,7 @@
   },
 
   {
-      "newURL": "https://audience.support.brightcove.com/develop/",
-      "oldURL": "/index"
-  },
-
-  {
-      "newURL": "https://audience.support.brightcove.com/integrations/eloqua/",
+      "newURL": "https://audience.support.brightcove.com/general/",
       "oldURL": "/index"
   },
 
@@ -166,6 +151,21 @@
 
   {
       "newURL": "https://audience.support.brightcove.com/admin/",
+      "oldURL": "/index"
+  },
+
+  {
+      "newURL": "https://audience.support.brightcove.com/integrations/marketo/",
+      "oldURL": "/index"
+  },
+
+  {
+      "newURL": "https://audience.support.brightcove.com/support/",
+      "oldURL": "/index"
+  },
+
+  {
+      "newURL": "https://audience.support.brightcove.com/develop/",
       "oldURL": "/index"
   },
 
@@ -242,11 +242,6 @@
   {
       "newURL": "https://audience.support.brightcove.com/support/register-training.html",
       "oldURL": "/register-training"
-  },
-
-  {
-      "newURL": "https://audience.support.brightcove.com/search-test.html",
-      "oldURL": "/search-test"
   },
 
   {
