@@ -93,25 +93,27 @@ grandparent: Integrations
     <h2 id="pardot">Configuring a Pardot integration</h2>
     <p>Once the Brightcove Audience to Salesforce connection has been made, you can choose to use Pardot to identify viewers. This section covers the steps to use Pardot to identify viewers.</p>
     <aside class="bcls-aside bcls-aside--information language-editable">Note: Before configuring the Pardot integration, you should complete the steps outlined in the <a href="/integrations/salesforce/creating-salesforce-object-pardot.html">Creating a Custom Salesforce Object for Pardot Integration</a> topic.</aside>
-    <aside class="bcls-aside bcls-aside--information language-editable">Note: Brightcove recommends creating a dedicated Pardot user account to use when configuring the integration with Brightcove Campaign.</aside>
+    <aside class="bcls-aside bcls-aside--information language-editable">Note: As of February 15, 2021, using a Pardot login is no longer valid.</aside>
+
     <ol class="bcls-tasklist">
       <li>Click the <strong>Configure how viewers are identified</strong> link.</li>
-      <li>Enter your <strong>Email</strong> and <strong>Password</strong> you use to login to Pardot.</li>
+      <li>If you are presented with 2 login options, select <strong>Use Salesforce Login</strong>.</li>
     </ol>
-    <h3 id="pardot-api-key">Get the Pardot API key</h3>
-    <p>To get the value for the API Key field, follow these steps.</p>
+    <h3 id="pardot-api-key">Get the Pardot Business Unit ID</h3>
+    <p>To get the value for the Pardot Business Unit ID field, follow these steps.</p>
     <ol  class="bcls-tasklist">
-      <li>Login to Pardot.</li>
-      <li> Click the gear icon (<img class="bcls-image--no-border" alt="" src="/assets/images/integrations/salesforce/pardot-gear-icon.png" />) and then <strong>Settings</strong>.</li>
-      <li> Click the <strong>My Profile</strong> link at the top of the page.</li>
-      <li> Copy the value in the <strong>API User Key</strong> field and paste it into the <strong>User Key</strong> field.</li>
+      <li>Login to your Salesforce account.</li>
+      <li> Click the gear icon (<img class="bcls-image--no-border" alt="" src="/assets/images/integrations/salesforce/pardot-gear-icon.png" />) and then <strong>Setup</strong></li>
+      <li>In the left navigation, in the <strong>Quick Find</strong> box, search for <strong>Pardot</strong>, then click <strong>Pardot Account Setup</strong>.</li>
+      <li> Locate the <strong> Business Unit ID</strong> field. Enter the value into the <strong>Pardot Business Unit ID</strong> field in Audience.</li>
     </ol>
     <h3 id="tracking-ids">Get the tracking IDs</h3>
     <p>To get the value for the <strong>Tracking piAld</strong> and <strong>Tracking piCld</strong> fields, follow these steps.</p>
     <ol class="bcls-tasklist">
-      <li>In the left navigation, click the <strong>Marketing</strong> icon and then click <strong>Campaigns</strong>.</li>
-      <li> Click on a Campaign Name (or add a campaign if there are no campaigns).
-        <aside class="bcls-aside bcls-aside--information">Note: It doesn’t matter which campaign you select, Brightcove Campaign needs both values to get the cookie to identify the viewer.</aside>
+      <li>Use the left navigation to open the <strong>Marketing</strong> page.</li>
+      <li>Click <strong>Campaigns</strong> on the top navigation.</li>
+      <li> Click on a Campaign Name (or click <strong>New</strong> and create a campaign if there are no campaigns).
+<aside class="bcls-aside bcls-aside--information">Note: It doesn’t matter which campaign you select, Brightcove Audience needs both values to get the cookie to identify the viewer.</aside>
       </li>
       <li> Click <strong>View Tracking Code</strong>. The <strong>piAId</strong> and <strong>piCId</strong> values will be displayed.
         <figure class="bcls-figure"><img class="bcls-image--no-border" alt="" src="/assets/images/integrations/salesforce/pardot-tracking-code.png" /></figure>
